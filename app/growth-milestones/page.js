@@ -7,6 +7,8 @@ import DisclaimerBox from '@/components/ui/DisclaimerBox';
 import SectionHeading from '@/components/ui/SectionHeading';
 import ScrollReveal from '@/components/animation/ScrollReveal';
 
+import MilestoneSimulator from '@/components/ui/MilestoneSimulator';
+
 export default function GrowthMilestonesPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 space-y-16 md:space-y-24" id="growth-milestones-page">
@@ -53,6 +55,13 @@ export default function GrowthMilestonesPage() {
           <p className="text-brand-brown text-xs leading-relaxed">
             For example, if your baby was born 8 weeks early and is now 24 weeks old chronologically, their corrected age is 16 weeks (4 months). You should assess their development using standard milestones for a four-month-old.
           </p>
+        </ScrollReveal>
+      </section>
+
+      {/* INTERACTIVE SIMULATOR SECTION */}
+      <section>
+        <ScrollReveal direction="up">
+          <MilestoneSimulator />
         </ScrollReveal>
       </section>
 
