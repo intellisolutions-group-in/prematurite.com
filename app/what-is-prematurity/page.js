@@ -62,6 +62,64 @@ export default function WhatIsPrematurity() {
         </ScrollReveal>
       </section>
 
+      {/* NEW SECTION: GESTATIONAL CLASSIFICATION COMPARISON TABLE */}
+      <section className="py-16 md:py-24 bg-brand-rose/10 px-4 border-t border-brand-coral/10">
+        <div className="max-w-7xl mx-auto space-y-12">
+          <ScrollReveal direction="up" className="text-center max-w-3xl mx-auto space-y-4">
+            <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-brand-coral">
+              Comparative Chart
+            </span>
+            <h2 className="text-2xl md:text-4xl font-display font-extrabold text-brand-deep">
+              Gestational Classification & Care Timelines
+            </h2>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              An educational matrix contrasting preterm categories by gestational weeks, birth weight, and expected NICU stays.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal direction="up" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse text-xs md:text-sm">
+                <thead>
+                  <tr className="border-b border-brand-coral/20 text-brand-deep font-bold bg-brand-rose/20">
+                    <th className="p-4 rounded-l-2xl">Classification</th>
+                    <th className="p-4">Gestational Weeks</th>
+                    <th className="p-4">Typical Weight Range</th>
+                    <th className="p-4 rounded-r-2xl">Standard NICU Stays Range</th>
+                  </tr>
+                </thead>
+                <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">Extremely Preterm</td>
+                    <td className="p-4">Under 28 Weeks</td>
+                    <td className="p-4">Less than 1,000 grams (1 kg)</td>
+                    <td className="p-4">60 to 120+ Days (discharge near due date)</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">Very Preterm</td>
+                    <td className="p-4">28 to 32 Weeks</td>
+                    <td className="p-4">1,000 to 1,500 grams (1.0 to 1.5 kg)</td>
+                    <td className="p-4">30 to 60 Days (depending on milestones)</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">Moderately Preterm</td>
+                    <td className="p-4">32 to 34 Weeks</td>
+                    <td className="p-4">1,500 to 2,000 grams (1.5 to 2.0 kg)</td>
+                    <td className="p-4">15 to 30 Days (focus on feeding coordination)</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">Late Preterm</td>
+                    <td className="p-4">34 to 37 Weeks</td>
+                    <td className="p-4">2,000 to 2,500 grams (2.0 to 2.5 kg)</td>
+                    <td className="p-4">2 to 14 Days (observation & stability tests)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* 3. CORRECTED AGE EXPLANATION */}
       <section className="bg-brand-white border border-brand-coral/15 rounded-3xl p-8 md:p-12 shadow-soft grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         <div className="lg:col-span-7 space-y-6">

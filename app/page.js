@@ -58,7 +58,7 @@ export default function Home() {
             </ScrollReveal>
 
             <ScrollReveal direction="up" delay={0.4} className="flex flex-wrap gap-4">
-              <Button href="/resources/" variant="primary" id="hero-primary-cta">
+              <Button href="/blog/" variant="primary" id="hero-primary-cta">
                 Explore Parent Resources
               </Button>
               <Button href="#quick-inquiry" variant="outline" id="hero-secondary-cta">
@@ -254,6 +254,54 @@ export default function Home() {
               </div>
             </ScrollReveal>
           </div>
+        </div>
+      </section>
+
+      {/* NEW SECTION: PRETERM DEVELOPMENT BY WEEKS REFERENCE MATRIX */}
+      <section className="py-16 md:py-24 bg-brand-rose/20 px-4 border-t border-brand-coral/10">
+        <div className="max-w-7xl mx-auto space-y-12">
+          <ScrollReveal direction="up" className="text-center max-w-3xl mx-auto space-y-4">
+            <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-brand-coral">
+              Gestational Timeline
+            </span>
+            <h2 className="text-2xl md:text-4xl font-display font-extrabold text-brand-deep">
+              Preterm Development Milestones by Weeks
+            </h2>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              An educational outline tracking the physical systems maturation of premature infants inside the NICU.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal direction="up" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse text-xs md:text-sm">
+                <thead>
+                  <tr className="border-b border-brand-coral/20 text-brand-deep font-bold text-sm bg-brand-rose/20">
+                    <th className="p-4 rounded-l-2xl">Gestational Stage</th>
+                    <th className="p-4">Physiological Development Focus</th>
+                    <th className="p-4 rounded-r-2xl">Recommended Parent Support Role</th>
+                  </tr>
+                </thead>
+                <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">Weeks 28 – 30 (Very Preterm)</td>
+                    <td className="p-4">Rapid brain system growth and lung sac expansion. Eyelids begin opening. Skin is extremely thin and fragile.</td>
+                    <td className="p-4">Practice quiet containment holds (gently cupping head and feet without stroking), minimize loud noises, and protect sleep cycles.</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">Weeks 31 – 33 (Moderate Preterm)</td>
+                    <td className="p-4">Sucking and swallowing coordination begins to emerge. Temperature control system is still immature.</td>
+                    <td className="p-4">Practice Kangaroo Mother Care (skin-to-skin contact) for heat preservation, and begin initial oral feeding trial sessions under nurse guidance.</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">Weeks 34 – 36 (Late Preterm)</td>
+                    <td className="p-4">Lung maturity increases. Sucking endurance develops. Muscle tone improves, enabling coordinated limb movements.</td>
+                    <td className="p-4">Maximize breastfeeding lactation support, maintain detailed diaper tracking logs, and prepare the nursery layout away from drafts.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 

@@ -58,5 +58,17 @@
     "quote": "An excellent digital library that is focused entirely on parent education. The warm tone is very supportive during a stressful time in our lives.",
     "author": "A Parent from Jaipur",
     "role": "Parent of premature baby boy"
+  },
+  {
+    "id": 11,
+    "quote": "The visitor sanitization log template was a lifesaver. It made setting boundary protocols with visiting relatives in Noida polite and completely objective, ensuring our nursery remained infection-free.",
+    "author": "A Mother from Noida",
+    "role": "Parent of baby born at 30 weeks"
+  },
+  {
+    "id": 12,
+    "quote": "Calculating corrected age was confusing until we used the guides here. It gave our family in Nagpur peace of mind seeing our son's physical milestones aligned with his corrected developmental age rather than chronological age.",
+    "author": "A Father from Nagpur",
+    "role": "Parent of extremely preterm infant"
   }
 ]

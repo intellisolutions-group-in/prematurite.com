@@ -108,47 +108,91 @@ export default function GrowthMilestonesPage() {
       </section>
 
       {/* 4. NEW CONTENT: PERCENTILE DETAILS & CATCH-UP TIMELINES */}
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        <ScrollReveal direction="right" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
-          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
-            Preterm Percentile Charts Guide
-          </h3>
-          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
-            Standard pediatric growth charts evaluate infants based on term milestones. For premature babies, clinics use specialized tracking indicators:
-          </p>
-          <ul className="space-y-3">
-            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
-              <strong className="text-brand-deep block">WHO vs. Fenton Charts:</strong> The WHO growth chart tracks infant development from term (40 weeks) onwards. For babies born extremely or very early, pediatricians use the Fenton growth chart, which starts plotting from 22 weeks gestation.
-            </li>
-            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
-              <strong className="text-brand-deep block">Focusing on Curve Consistency:</strong> It is common for preterm babies to fall below the 10th percentile on standard WHO charts. The primary goal is that they maintain a steady, parallel upward trend on their own personal Fenton curve.
-            </li>
-            <li className="text-brand-brown text-xs md:text-sm">
-              <strong className="text-brand-deep block">Adjusting for Gestational Shifts:</strong> Always recalculate corrected milestones before reviewing physical size percentiles, ensuring your observations reflect the baby's actual physiological age.
-            </li>
-          </ul>
-        </ScrollReveal>
+      <section className="space-y-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <ScrollReveal direction="right" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+            <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+              Preterm Percentile Charts Guide
+            </h3>
+            <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+              Standard pediatric growth charts evaluate infants based on term milestones. For premature babies, clinics use specialized tracking indicators:
+            </p>
+            <ul className="space-y-3">
+              <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+                <strong className="text-brand-deep block">WHO vs. Fenton Charts:</strong> The WHO growth chart tracks infant development from term (40 weeks) onwards. For babies born extremely or very early, pediatricians use the Fenton growth chart, which starts plotting from 22 weeks gestation.
+              </li>
+              <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+                <strong className="text-brand-deep block">Focusing on Curve Consistency:</strong> It is common for preterm babies to fall below the 10th percentile on standard WHO charts. The primary goal is that they maintain a steady, parallel upward trend on their own personal Fenton curve.
+              </li>
+              <li className="text-brand-brown text-xs md:text-sm">
+                <strong className="text-brand-deep block">Adjusting for Gestational Shifts:</strong> Always recalculate corrected milestones before reviewing physical size percentiles, ensuring your observations reflect the baby's actual physiological age.
+              </li>
+            </ul>
+          </ScrollReveal>
 
-        <ScrollReveal direction="left" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+          <ScrollReveal direction="left" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+            <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+              Expected Catch-up Growth Timeline
+            </h3>
+            <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+              Preterm growth gaps close gradually. Learn what to expect across different developmental stages:
+            </p>
+            <div className="space-y-4">
+              <div className="border-b border-brand-coral/10 pb-2">
+                <strong className="text-brand-deep text-sm block">0 to 6 Months Corrected:</strong>
+                <p className="text-brand-brown text-xs">Primary metabolic energy is spent stabilizing breathing and temperature. Weight gain may be gradual, but head circumference should show steady growth.</p>
+              </div>
+              <div className="border-b border-brand-coral/10 pb-2">
+                <strong className="text-brand-deep text-sm block">6 to 12 Months Corrected:</strong>
+                <p className="text-brand-brown text-xs">Sucking reflexes and digestive capacity mature, accelerating weight gain. Motor skills like rolling and grasping align closely with adjusted timelines.</p>
+              </div>
+              <div>
+                <strong className="text-brand-deep text-sm block">12 to 24 Months Corrected:</strong>
+                <p className="text-brand-brown text-xs">Catch-up growth typically accelerates. By the age of two, most preterm babies reach standard physical stature and milestone lines matching chronological age.</p>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
+
+        <ScrollReveal direction="up" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
           <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
-            Expected Catch-up Growth Timeline
+            Fenton Growth Percentiles Mapping Guide
           </h3>
           <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
-            Preterm growth gaps close gradually. Learn what to expect across different developmental stages:
+            This educational mapping explains how pediatricians interpret Fenton growth chart percentiles to monitor preterm growth trajectories over gestational weeks:
           </p>
-          <div className="space-y-4">
-            <div className="border-b border-brand-coral/10 pb-2">
-              <strong className="text-brand-deep text-sm block">0 to 6 Months Corrected:</strong>
-              <p className="text-brand-brown text-xs">Primary metabolic energy is spent stabilizing breathing and temperature. Weight gain may be gradual, but head circumference should show steady growth.</p>
-            </div>
-            <div className="border-b border-brand-coral/10 pb-2">
-              <strong className="text-brand-deep text-sm block">6 to 12 Months Corrected:</strong>
-              <p className="text-brand-brown text-xs">Sucking reflexes and digestive capacity mature, accelerating weight gain. Motor skills like rolling and grasping align closely with adjusted timelines.</p>
-            </div>
-            <div>
-              <strong className="text-brand-deep text-sm block">12 to 24 Months Corrected:</strong>
-              <p className="text-brand-brown text-xs">Catch-up growth typically accelerates. By the age of two, most preterm babies reach standard physical stature and milestone lines matching chronological age.</p>
-            </div>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-xs md:text-sm">
+              <thead>
+                <tr className="border-b border-brand-coral/20 text-brand-deep font-bold">
+                  <th className="py-2 pr-4">Fenton Percentile</th>
+                  <th className="py-2 pr-4">Typical Definition</th>
+                  <th className="py-2">Educational Guidance & Growth Interpretation</th>
+                </tr>
+              </thead>
+              <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">50th Percentile</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">Median Growth Value</td>
+                  <td className="py-3">Represents the statistical median growth line of healthy preterm infants of the same gestational age.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">10th to 90th Percentile</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">Normal Target Range</td>
+                  <td className="py-3">Most preterm infants grow steadily within this range. The consistency of their upward curve is far more clinically critical than the absolute percentile rank.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">Below 10th Percentile</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">Small for Gestational Age (SGA)</td>
+                  <td className="py-3">Indicates that the baby is tracking at the lower end of the weight curve. If they maintain a steady parallel growth curve, they are generally thriving.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">Below 3rd Percentile</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">Significant Growth Delay</td>
+                  <td className="py-3">A warning sign that weight gain, length, or head circumference has flattened. Typically prompts the neonatal team to adjust calorie densities or investigate absorption.</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </ScrollReveal>
       </section>
@@ -167,7 +211,7 @@ export default function GrowthMilestonesPage() {
           </p>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-brand-brown text-xs md:text-sm leading-relaxed">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-brand-brown text-xs md:text-sm leading-relaxed">
           <div className="space-y-4">
             <h3 className="font-display font-bold text-red-800 text-base">
               Motor & Tone Red Flags:
@@ -184,6 +228,10 @@ export default function GrowthMilestonesPage() {
               <li className="flex items-start">
                 <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
                 <span>**Asymmetric Movement:** The baby consistently uses only one side of the body or drags one leg.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span>**Head Lag:** Total inability to support or lift the head briefly when pulled to a sitting position by 4 months corrected.</span>
               </li>
             </ul>
           </div>
@@ -205,6 +253,30 @@ export default function GrowthMilestonesPage() {
                 <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
                 <span>**Lack of Social Smile:** Failure to smile responsively or engage in early vocal cooing by 3 months corrected.</span>
               </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span>**Extreme Sensitivity:** Intense, inconsolable crying when exposed to normal daily light or sound levels.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-4">
+            <h3 className="font-display font-bold text-red-800 text-base">
+              Growth & Feeding Red Flags:
+            </h3>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span>**Growth Curve Flattening:** Complete flattening or downward trend of weight, length, or head circumference over two consecutive weeks.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span>**Feeding Exhaustion:** Baby regularly falls asleep within 5 minutes of starting a feed or shows extreme rapid breathing during feeds.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span>**Persistent Choking:** Regular coughing, choking, or color change (turning pale or blue) during breast or bottle feeds.</span>
+              </li>
             </ul>
           </div>
         </div>
@@ -221,8 +293,8 @@ export default function GrowthMilestonesPage() {
             Visit our Resource Library to download printable milestone sheets, pediatric appointment trackers, and daily care log templates for educational use.
           </p>
           <div className="flex justify-center gap-4">
-            <Button href="/resources/" id="growth-resources-btn">
-              Browse Resource Library
+            <Button href="/blog/" id="growth-resources-btn">
+              Browse Our Blog
             </Button>
             <Button href="/doctor-questions-checklist/" variant="outline" id="growth-checklist-btn">
               Explore Doctor Checklist

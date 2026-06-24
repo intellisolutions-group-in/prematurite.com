@@ -142,50 +142,103 @@ export default function ParentSupportPage() {
         </ScrollReveal>
       </section>
 
-      {/* NEW CONTENT: MENTAL HEALTH CAREGIVER CHECKLIST */}
-      <section className="bg-brand-white border border-brand-coral/15 rounded-3xl p-8 md:p-12 shadow-soft grid grid-cols-1 lg:grid-cols-12 gap-8 items-center animate-fade-in">
-        <div className="lg:col-span-7 space-y-6">
-          <ScrollReveal direction="right">
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-brand-coral/10 text-brand-coral border border-brand-coral/25">
-              Self-Care Tools
-            </span>
-            <h2 className="text-2xl md:text-3xl font-display font-extrabold text-brand-deep mt-2">
-              Mental Health Checklist for Primary Caregivers
-            </h2>
-            <p className="text-brand-brown text-sm md:text-base leading-relaxed mt-4">
-              It is easy to focus entirely on the baby and neglect your own physical and mental wellness. We encourage primary caregivers to use this daily checklist to maintain health and prevent emotional burnout.
-            </p>
-            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
-              Print this list or keep it as a reminder in the nursery. Remember: an emotionally stable, rested parent is better equipped to recognize infant hunger cues, maintain strict sanitation, and coordinate with the pediatric care team.
-            </p>
-          </ScrollReveal>
+      <section className="bg-brand-white border border-brand-coral/15 rounded-3xl p-8 md:p-12 shadow-soft space-y-8 animate-fade-in">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="lg:col-span-7 space-y-6">
+            <ScrollReveal direction="right">
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-brand-coral/10 text-brand-coral border border-brand-coral/25">
+                Self-Care Tools
+              </span>
+              <h2 className="text-2xl md:text-3xl font-display font-extrabold text-brand-deep mt-2">
+                Mental Health Checklist for Primary Caregivers
+              </h2>
+              <p className="text-brand-brown text-sm md:text-base leading-relaxed mt-4">
+                It is easy to focus entirely on the baby and neglect your own physical and mental wellness. We encourage primary caregivers to use this daily checklist to maintain health and prevent emotional burnout.
+              </p>
+              <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+                Print this list or keep it as a reminder in the nursery. Remember: an emotionally stable, rested parent is better equipped to recognize infant hunger cues, maintain strict sanitation, and coordinate with the pediatric care team.
+              </p>
+            </ScrollReveal>
+          </div>
+
+          <div className="lg:col-span-5 bg-brand-rose/20 rounded-2xl p-6 border border-brand-coral/10 space-y-4">
+            <ScrollReveal direction="left" className="space-y-4">
+              <h3 className="font-display font-bold text-brand-deep text-base">
+                Daily Wellness Checklist
+              </h3>
+              <ul className="space-y-3 text-xs md:text-sm text-brand-brown">
+                <li className="flex items-start">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
+                  <span><strong>Rest Routine:</strong> Get at least 4 to 5 hours of continuous, uninterrupted sleep in a 24-hour cycle.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
+                  <span><strong>Hydration & Meals:</strong> Eat three balanced meals and drink plenty of fluids to support physical energy.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
+                  <span><strong>Mindful Break:</strong> Spend 10 to 15 minutes in quiet reflection or breathing exercises away from monitors.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
+                  <span><strong>Share Logs:</strong> Transfer diaper and feeding logs to your partner to release mental tracking pressure.</span>
+                </li>
+              </ul>
+            </ScrollReveal>
+          </div>
         </div>
 
-        <div className="lg:col-span-5 bg-brand-rose/20 rounded-2xl p-6 border border-brand-coral/10 space-y-4">
-          <ScrollReveal direction="left" className="space-y-4">
-            <h3 className="font-display font-bold text-brand-deep text-base">
-              Daily Wellness Checklist
-            </h3>
-            <ul className="space-y-3 text-xs md:text-sm text-brand-brown">
-              <li className="flex items-start">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
-                <span><strong>Rest Routine:</strong> Get at least 4 to 5 hours of continuous, uninterrupted sleep in a 24-hour cycle.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
-                <span><strong>Hydration & Meals:</strong> Eat three balanced meals and drink plenty of fluids to support physical energy.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
-                <span><strong>Mindful Break:</strong> Spend 10 to 15 minutes in quiet reflection or breathing exercises away from monitors.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
-                <span><strong>Share Logs:</strong> Transfer diaper and feeding logs to your partner to release mental tracking pressure.</span>
-              </li>
-            </ul>
-          </ScrollReveal>
-        </div>
+        <ScrollReveal direction="up" className="bg-brand-rose/10 rounded-2xl p-6 border border-brand-coral/10 space-y-4">
+          <h3 className="font-display font-bold text-brand-deep text-base">
+            Caregiver Coping Daily Checklist & Parameters
+          </h3>
+          <p className="text-brand-brown text-xs leading-relaxed">
+            A structured daily self-care tracker for primary caregivers to monitor and maintain their physical and emotional reserves:
+          </p>
+          <div className="overflow-x-auto pt-2">
+            <table className="w-full text-left border-collapse text-xs">
+              <thead>
+                <tr className="border-b border-brand-coral/20 text-brand-deep font-bold">
+                  <th className="py-2 pr-4 w-1/4">Coping Parameter</th>
+                  <th className="py-2 pr-4 w-1/4">Target Frequency</th>
+                  <th className="py-2">Educational Goal & Rationale</th>
+                </tr>
+              </thead>
+              <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">Consecutive Sleep Block</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">Minimum 4-5 hours daily</td>
+                  <td className="py-3">Ensures at least one complete REM cycle, reducing cognitive fatigue and preventing micro-sleep episodes during baby handling.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">Nutritional Hydration</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">3 full meals + 2.5L water</td>
+                  <td className="py-3">Sustains physical energy reserves and supports lactation output, preventing physical exhaustion-related headaches.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">Mental Off-Duty Window</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">20 minutes once a day</td>
+                  <td className="py-3">Complete disconnect from baby monitors or diaper tracking. Spend this time breathing, reading, or resting outdoors.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">Log Delegation Handover</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">Once daily at shift swap</td>
+                  <td className="py-3">Physically hand over the care notebook or phone log to a partner, fully transferring cognitive tracking responsibility.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">Physical Movement</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">10-15 minute gentle stretch</td>
+                  <td className="py-3">Helps relieve back and neck strain from carrying the baby and pump sessions, promoting physical circulation.</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-semibold text-brand-deep">Emotional Venting Check</td>
+                  <td className="py-3 pr-4 text-brand-coral font-medium">Daily partner check-in</td>
+                  <td className="py-3">Spend five minutes sharing feelings, concerns, or worries openly with a partner, family member, or supporter.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </ScrollReveal>
       </section>
 
       {/* NEW CONTENT: EXTENDED FAMILY SUPPORT */}
@@ -198,26 +251,32 @@ export default function ParentSupportPage() {
             How Extended Families Can Productively Support Parents
           </h2>
           <p className="text-brand-brown text-sm leading-relaxed">
-            In Indian households, support from grandparents, aunts, and uncles is invaluable, but their care ideas must align with preterm safety standards.
+            In Indian households, support from grandparents, aunts, uncles, and relatives is invaluable, but their care ideas must align with preterm safety standards.
           </p>
         </ScrollReveal>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-brand-white border border-brand-coral/10 rounded-2xl p-6 space-y-2 shadow-soft">
+          <div className="bg-brand-white border border-brand-coral/10 rounded-2xl p-6 space-y-3 shadow-soft">
             <h3 className="font-display font-bold text-brand-deep text-base">
-              Non-Contact Support Chores
+              Non-Contact Support Chores & Grandparent Roles
             </h3>
             <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
-              Family members can help by taking charge of household sanitization, cooking nutritious meals, managing grocery deliveries, washing infant linen, and coordinating logistics for pediatric visits. This lets parents focus on feeding and skin-to-skin care.
+              Family members can help tremendously by managing household logistics. Grandparents can take charge of preparing fresh, hygienic, nutritious meals for the nursing mother, sterilizing breast pump components, boiling drinking water, washing infant laundry with mild detergents, and keeping the home dust-free.
+            </p>
+            <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+              This non-contact support is the most effective way grandparents can shield the premature infant from bacterial exposure while ensuring the parents have the time to perform feeding, logging, and Kangaroo Mother Care.
             </p>
           </div>
 
-          <div className="bg-brand-white border border-brand-coral/10 rounded-2xl p-6 space-y-2 shadow-soft">
+          <div className="bg-brand-white border border-brand-coral/10 rounded-2xl p-6 space-y-3 shadow-soft">
             <h3 className="font-display font-bold text-brand-deep text-base">
-              Respecting Isolation Boundaries
+              Respecting Isolation Boundaries & Reducing Conflict
             </h3>
             <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
-              Help enforce visitor limits. Remind well-wishing friends that the baby's immune system is still developing. Support the parents in declining social gatherings, and encourage visitors to wait until the child reaches three months corrected age.
+              Help enforce visitor limits. Grandparents and relatives can act as positive gatekeepers, explaining to extended family members that the baby's immune system is highly delicate. Advise well-wishers to schedule virtual calls rather than requesting physical visits.
+            </p>
+            <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+              Ensure relatives respect the pediatrician-mandated isolation guidelines. By aligning traditional child-rearing practices with modern clinical advice, the household remains a calm, structured, and infection-free sanctuary.
             </p>
           </div>
         </div>

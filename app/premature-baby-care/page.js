@@ -62,6 +62,58 @@ export default function PrematureBabyCarePage() {
         </ScrollReveal>
       </section>
 
+      {/* NEW SECTION: THERMAL ENVIRONMENT CONTROL MATRIX */}
+      <section className="py-16 md:py-24 bg-brand-rose/10 px-4 border-t border-brand-coral/10">
+        <div className="max-w-7xl mx-auto space-y-12">
+          <ScrollReveal direction="up" className="text-center max-w-3xl mx-auto space-y-4">
+            <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-brand-coral">
+              Thermal Management
+            </span>
+            <h2 className="text-2xl md:text-4xl font-display font-extrabold text-brand-deep">
+              Thermal Environment Control Guidelines
+            </h2>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              Safe room temperature parameters for preterm infants sleeping in Indian home environments.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal direction="up" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse text-xs md:text-sm">
+                <thead>
+                  <tr className="border-b border-brand-coral/20 text-brand-deep font-bold bg-brand-rose/20">
+                    <th className="p-4 rounded-l-2xl">Room Temperature (C)</th>
+                    <th className="p-4">Room Temperature (F)</th>
+                    <th className="p-4">Thermal Status</th>
+                    <th className="p-4 rounded-r-2xl">Caregiver Response Plan</th>
+                  </tr>
+                </thead>
+                <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">22.0°C – 24.0°C</td>
+                    <td className="p-4">71.6°F – 75.2°F</td>
+                    <td className="p-4 text-green-600 font-bold">Optimal & Safe</td>
+                    <td className="p-4">Standard clothing layers. Ensure no drafts from open windows or fans blow directly onto the crib.</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">20.0°C – 21.9°C</td>
+                    <td className="p-4">68.0°F – 71.4°F</td>
+                    <td className="p-4 text-brand-apricot font-bold">Cool Zone</td>
+                    <td className="p-4">Wrap the baby in an extra cotton swaddle or sleep sack layer. Monitor neck warmth closely.</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">&lt; 20.0°C or &gt; 25.0°C</td>
+                    <td className="p-4">&lt; 68.0°F or &gt; 77.0°F</td>
+                    <td className="p-4 text-red-600 font-bold">Unsafe / Risk of Stress</td>
+                    <td className="p-4">Adjust room heating or cooling immediately. Preterm babies cannot autothermoregulate, raising hypothermia/heat stress risks.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* 3. PRACTICAL CHECKLIST */}
       <section className="bg-brand-white border border-brand-coral/15 rounded-3xl p-8 md:p-12 shadow-soft space-y-8">
         <ScrollReveal direction="up">

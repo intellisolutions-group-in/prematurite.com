@@ -187,6 +187,54 @@ export default function NICUJourneyPage() {
         </ScrollReveal>
       </section>
 
+      {/* NEW SECTION: NICU VENTILATION MODES GUIDE */}
+      <section className="py-16 md:py-24 bg-brand-rose/10 px-4 border-t border-brand-coral/10">
+        <div className="max-w-7xl mx-auto space-y-12">
+          <ScrollReveal direction="up" className="text-center max-w-3xl mx-auto space-y-4">
+            <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-brand-coral">
+              Breathing Support
+            </span>
+            <h2 className="text-2xl md:text-4xl font-display font-extrabold text-brand-deep">
+              NICU Ventilation Modes & Respiratory Support Guide
+            </h2>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              An educational overview explaining standard methods of breathing assistance used in Neonatal units.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal direction="up" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse text-xs md:text-sm">
+                <thead>
+                  <tr className="border-b border-brand-coral/20 text-brand-deep font-bold bg-brand-rose/20">
+                    <th className="p-4 rounded-l-2xl">Support Mode</th>
+                    <th className="p-4">How It Functions</th>
+                    <th className="p-4 rounded-r-2xl">Clinical Purpose & Target</th>
+                  </tr>
+                </thead>
+                <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">Mechanical Ventilator</td>
+                    <td className="p-4">Delivers machine breaths through an endotracheal tube in the windpipe.</td>
+                    <td className="p-4">Used for infants who cannot breathe on their own or have severe respiratory distress.</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">CPAP (Continuous Positive Airway Pressure)</td>
+                    <td className="p-4">Delivers constant, mild air pressure through nasal prongs or a small mask.</td>
+                    <td className="p-4">Keeps the lungs inflated and prevents air sacs (alveoli) from collapsing during exhaling.</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-brand-deep">HFNC (High-Flow Nasal Cannula)</td>
+                    <td className="p-4">Delivers warmed, humidified oxygen through small nasal tubes at lower pressure.</td>
+                    <td className="p-4">Supports infants transitioning off CPAP, reducing the mechanical work of breathing.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* NEW CONTENT: NICU FEEDING TUBES AND LINES */}
       <section className="bg-brand-white border border-brand-coral/15 rounded-3xl p-8 md:p-12 shadow-soft grid grid-cols-1 lg:grid-cols-12 gap-8 items-center animate-fade-in">
         <div className="lg:col-span-7 space-y-6">
@@ -228,19 +276,27 @@ export default function NICUJourneyPage() {
             <ul className="space-y-2 text-xs md:text-sm text-brand-brown">
               <li className="flex items-start">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
-                <span>**Temp Stability:** Maintain body temperature (36.5°C - 37.4°C) in an open crib for 24-48 hours.</span>
+                <span>**Temp Stability:** Maintain body temperature (36.5°C - 37.4°C) in an open crib for 48 hours consecutively.</span>
               </li>
               <li className="flex items-start">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
-                <span>**Oral Feeding:** Take all feeds by breast or bottle without breathing effort or bradycardia events.</span>
+                <span>**Oral Feeding:** Take all feeds by breast or bottle with safe sucking-swallowing-breathing (SSB) coordination.</span>
               </li>
               <li className="flex items-start">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
-                <span>**Weight Gain:** Gain weight consistently (typically 15-20g per day per kg) for several days.</span>
+                <span>**Weight Gain:** Gain weight consistently (typically 15-20g per day per kg) for three consecutive days.</span>
               </li>
               <li className="flex items-start">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
-                <span>**Apnea Clearance:** No recent apnea/bradycardia events requiring physical stimulation.</span>
+                <span>**Apnea Clearance:** No apnea/bradycardia events requiring physical stimulation for 5-7 days.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
+                <span>**Caregiver Training:** Completed training on ambient temp checks, log updates, and handwashing protocols.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
+                <span>**Pediatrician Setup:** Scheduled the first follow-up appointment within 48-72 hours of discharge.</span>
               </li>
             </ul>
           </ScrollReveal>

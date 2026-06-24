@@ -168,6 +168,46 @@ export default function FeedingNutritionPage() {
         </ScrollReveal>
       </section>
 
+      {/* NEW SECTION: BREAST MILK FORTIFICATION EXPLAINER */}
+      <section className="py-16 md:py-24 bg-brand-rose/10 px-4 border-t border-brand-coral/10">
+        <div className="max-w-7xl mx-auto space-y-12">
+          <ScrollReveal direction="up" className="text-center max-w-3xl mx-auto space-y-4">
+            <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-brand-coral">
+              Nutritional Options
+            </span>
+            <h2 className="text-2xl md:text-4xl font-display font-extrabold text-brand-deep">
+              Preterm Breast Milk Fortification Options
+            </h2>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              Differentiating types of early nutrition feeds to support rapid physical growth curves.
+            </p>
+          </ScrollReveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <ScrollReveal direction="up" delay={0.1} className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 shadow-soft space-y-3">
+              <h3 className="font-display font-bold text-brand-deep text-base">Preterm Breast Milk</h3>
+              <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+                The maternal gold standard. High in immunoglobulins and specific proteins that protect the baby's fragile gut lining. Processed easily by immature digestive organs.
+              </p>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={0.2} className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 shadow-soft space-y-3">
+              <h3 className="font-display font-bold text-brand-deep text-base">Human Milk Fortifiers (HMF)</h3>
+              <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+                Nutritional powders or liquids added to expressed breast milk under doctor orders. They add extra calories, protein, calcium, and phosphorus for bone mineralization.
+              </p>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={0.3} className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 shadow-soft space-y-3">
+              <h3 className="font-display font-bold text-brand-deep text-base">Special Preterm Formulas</h3>
+              <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+                High-calorie, mineral-dense formulas used if maternal breast milk or donor bank milk is unavailable. They support high daily growth demands under clinical guidance.
+              </p>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
       {/* NEW CONTENT: REFUX & SPITTING UP MANAGEMENT */}
       <section className="bg-brand-white border border-brand-coral/15 rounded-3xl p-8 md:p-12 shadow-soft grid grid-cols-1 lg:grid-cols-12 gap-8 items-center animate-fade-in">
         <div className="lg:col-span-7 space-y-6">

@@ -159,6 +159,53 @@ export default function OurApproachPage() {
         </ScrollReveal>
       </section>
 
+      {/* NEW SECTION: LINGUISTIC READABILITY CHECKPOINTS */}
+      <section className="py-16 md:py-24 bg-brand-rose/10 px-4 border-t border-brand-coral/10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <ScrollReveal direction="right" className="space-y-6">
+            <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-brand-coral block">
+              Lexical Adaptation
+            </span>
+            <h2 className="text-2xl md:text-3xl font-display font-extrabold text-brand-deep">
+              Linguistic Readability Guidelines
+            </h2>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              We apply strict lexical limits to all content, transforming dense clinical vocabulary into supportive, digestible language suitable for parents under stress.
+            </p>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              Every guide requires that complex terms like *nasogastric intubation* be accompanied by parent-friendly definitions (*gavage tube feeding*). This ensures accessibility across diverse reading literacy levels.
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal direction="left" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse text-xs md:text-sm">
+                <thead>
+                  <tr className="border-b border-brand-coral/20 text-brand-deep font-bold bg-brand-rose/20">
+                    <th className="p-3 rounded-l-xl">Clinical Vocabulary</th>
+                    <th className="p-3 rounded-r-xl">Parent-Centric Translation</th>
+                  </tr>
+                </thead>
+                <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                  <tr>
+                    <td className="p-3 font-semibold text-brand-deep">Hyperbilirubinemia</td>
+                    <td className="p-3">Neonatal jaundice (yellow skin tint from bilirubin buildup).</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 font-semibold text-brand-deep">Desaturations (Desats)</td>
+                    <td className="p-3">Temporary drop in blood oxygen levels (often monitored in NICU).</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 font-semibold text-brand-deep">Gavage feeding</td>
+                    <td className="p-3">Feeding via a soft nose-to-stomach tube when sucking coordinate is immature.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* 4. ACTIONS */}
       <section className="text-center space-y-6 max-w-3xl mx-auto">
         <ScrollReveal direction="up" className="space-y-6">
@@ -170,8 +217,8 @@ export default function OurApproachPage() {
             Check out our Resource Library to download checklists, logs, and worksheets developed using our structured educational approach.
           </p>
           <div className="pt-2">
-            <Button href="/resources/" id="approach-resources-btn">
-              Explore Resource Library
+            <Button href="/blog/" id="approach-resources-btn">
+              Explore Our Blog
             </Button>
           </div>
         </ScrollReveal>

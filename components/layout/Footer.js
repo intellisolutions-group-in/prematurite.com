@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Heart, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import companyData from '../../data/company.json';
 import navData from '../../data/navigation.json';
 
@@ -17,18 +17,14 @@ export default function Footer() {
           <div className="space-y-4">
             <Link
               href="/"
-              className="flex items-center space-x-2 font-display font-extrabold text-brand-deep"
+              className="flex items-center"
               aria-label="Prematurite Digital Health Home"
             >
-              <div className="bg-brand-coral p-1.5 rounded-xl text-brand-white">
-                <Heart className="w-5 h-5" fill="currentColor" />
-              </div>
-              <span className="text-lg md:text-xl tracking-tight leading-none">
-                Prematurite
-                <span className="block text-[10px] md:text-[11px] font-sans font-semibold tracking-wider uppercase text-brand-brown">
-                  Digital Health
-                </span>
-              </span>
+              <img
+                src="/images/logo.png"
+                alt="Prematurite Digital Health"
+                className="h-10 w-auto object-contain"
+              />
             </Link>
             <p className="text-brand-brown text-sm leading-relaxed">
               Prematurite Digital Health is a warm, trusted digital resource for Indian parents and families navigating premature birth, NICU journeys, feeding care, growth milestones, kangaroo care, post-discharge home care, and parent support.

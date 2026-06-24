@@ -33,10 +33,13 @@ export default function KangarooCarePage() {
             The Science of Skin-to-Skin Warmth
           </h2>
           <p className="text-brand-brown text-sm md:text-base leading-relaxed">
-            Kangaroo Mother Care (KMC) involves holding your diaper-clad premature baby upright against your bare chest. This direct skin-to-skin contact initiates a process called thermal synchrony, where the parent's chest temperature adapts dynamically to warm a cool baby or cool a warm baby.
+            Kangaroo Mother Care (KMC) involves holding your diaper-clad premature baby upright against your bare chest. This direct skin-to-skin contact initiates a process called **thermal synchrony**, where the parent's chest temperature adapts dynamically to the baby's metabolic state.
           </p>
           <p className="text-brand-brown text-sm md:text-base leading-relaxed">
-            KMC also triggers the release of oxytocin in the parent, which helps reduce maternal stress, stimulates milk production, and promotes deeper sleep cycles in the infant. It is a highly effective, low-cost care standard recognized globally.
+            During thermal synchrony, the mother's breasts can alter their local temperature by up to two degrees Celsius within minutes. If the baby is cold, the maternal chest temperature rises to conduct heat; if the baby is warm, her skin cools down to prevent hyperthermia. This bidirectional heat exchange serves as an active incubator, matching the baby's thermal needs far more precisely than static ambient air.
+          </p>
+          <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+            Additionally, KMC triggers the release of oxytocin in both mother and baby. This hormone reduces maternal cortisol levels, stimulates milk ejection reflexes, and fosters cardiorespiratory stability, helping the baby maintain steady oxygen levels and deeper sleep.
           </p>
         </ScrollReveal>
 
@@ -230,6 +233,71 @@ export default function KangarooCarePage() {
             <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
               When placed in skin-to-skin contact, the infant does not burn metabolic calories trying to maintain their own body heat. This energy conservation lets the baby channel calories directly into weight gain, accelerating growth and shortening hospital stays.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* NEW CONTENT: KMC SAFETY & POSITIONING RED FLAGS */}
+      <section className="bg-brand-white border border-red-500/15 rounded-3xl p-8 md:p-12 shadow-soft space-y-8 animate-fade-in">
+        <ScrollReveal direction="up" className="text-center max-w-3xl mx-auto space-y-3">
+          <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-red-500">
+            Safety Monitoring
+          </span>
+          <h2 className="text-2xl md:text-3xl font-display font-extrabold text-brand-deep">
+            KMC Safety & Positioning Red Flags
+          </h2>
+          <p className="text-brand-brown text-sm leading-relaxed">
+            Immediately halt the skin-to-skin session, safely return your baby to their incubator or crib, and notify clinical staff or seek emergency care if you observe any of the following signs:
+          </p>
+        </ScrollReveal>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-brand-brown text-xs md:text-sm leading-relaxed">
+          <div className="space-y-4">
+            <h3 className="font-display font-bold text-red-800 text-base">
+              Respiratory Distress Indicators:
+            </h3>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span><strong>Chest Retractions:</strong> The skin between or under the baby's ribs pulls in deeply with each breath, indicating hard breathing.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span><strong>Nasal Flaring:</strong> The nostrils flare out widely during breathing, showing extra work to draw in air.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span><strong>Audible Grunting:</strong> A soft sighing or grunting noise at the end of each breath.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span><strong>Apnea:</strong> Any breathing pause that lasts longer than 15-20 seconds, or is accompanied by a color change.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-4">
+            <h3 className="font-display font-bold text-red-800 text-base">
+              Circulatory & General Signs:
+            </h3>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span><strong>Color Change:</strong> Baby turns pale, bluish (cyanotic), dusky, or mottled (especially around the lips or fingernails).</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span><strong>Lethargy or Tone Loss:</strong> The baby feels suddenly very limp, floppy, or is unresponsive to gentle touch.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span><strong>Thermal Instability:</strong> Baby feels extremely hot to the touch (flushing or sweating) or cold (shivering, mottled skin).</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5 mr-2" />
+                <span><strong>Active Spitting/Vomiting:</strong> Effortless regurgitation that could block the baby's airway when upright.</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>

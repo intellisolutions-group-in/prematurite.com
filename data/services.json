@@ -13,7 +13,7 @@
       "Monitoring sleep patterns and responsive comforting techniques",
       "Identifying general signs of well-being and comforting rhythms"
     ],
-    "guidanceText": "Preterm infants require specific adjustments at home to support their continued development. Creating a low-stress, quiet, and warm atmosphere is essential. Maintain ambient temperatures between twenty-two and twenty-four degrees Celsius, minimize bright lights, and keep noise levels low. Hygiene is critical, as their immune systems are still developing. Wash hands thoroughly before handling the baby and limit guests in the early weeks.",
+    "guidanceText": "Preterm infants require specific adjustments at home to support their continued development. Creating a low-stress, quiet, and warm atmosphere is essential. Maintain ambient temperatures between twenty-two and twenty-four degrees Celsius, minimize bright lights, and keep noise levels low. Hygiene is critical, as their immune systems are still developing. Wash hands thoroughly before handling the baby and limit guests in the early weeks. Keep a dedicated room thermometer visible at all times to monitor fluctuations. Ensure you dress your baby in layers of soft, washed cotton, and keep their sleep area free of plush toys or heavy loose blankets, in accordance with safe sleep guidelines.",
     "whenDoctor": "Always contact your pediatrician or neonatologist if the infant shows signs of persistent crying, lethargy, poor feeding, abnormal breathing patterns, or temperature fluctuations outside the recommended range."
   },
   {
@@ -30,7 +30,7 @@
       "Understanding neonatal jaundice and common non-clinical observations",
       "Safe neurological stimulation and sleep cycle preservation"
     ],
-    "guidanceText": "Neonatal health education focuses on explaining the anatomical and physiological differences of preterm babies in simple terms. Because premature babies are born before their systems are fully developed, they experience and interact with the world differently than full-term babies. For example, their skin is thinner, their lungs are still maturing, and their brains are highly sensitive to loud noises and bright lights. Understanding these factors helps families provide gentle, protective care.",
+    "guidanceText": "Neonatal health education focuses on explaining the anatomical and physiological differences of preterm babies in simple terms. Because premature babies are born before their systems are fully developed, they experience and interact with the world differently than full-term babies. For example, their skin is thinner, their lungs are still maturing, and their brains are highly sensitive to loud noises and bright lights. Understanding these factors helps families provide gentle, protective care. By understanding how the baby’s sensory organs process tactile inputs, you can avoid over-stimulating them during skin contact sessions. Recognizing common, benign physiological traits like neonatal jaundice helps reduce maternal anxiety.",
     "whenDoctor": "Seek immediate advice from a qualified medical professional if you observe skin discoloration, signs of respiratory distress, sluggish reflexes, or any behavior that appears unusual compared to the daily baseline."
   },
   {
@@ -47,7 +47,7 @@
       "Locating reliable peer education networks in India",
       "Building parenting confidence through daily structured routines"
     ],
-    "guidanceText": "Parent support programs emphasize emotional resilience and peer-to-peer education. Having a baby in the NICU or caring for a preterm infant at home can be emotionally taxing. It is common to experience worry, confusion, or exhaustion. Our resources help families manage stress through shared educational experiences, structured coping strategies, and guides for clear communication with clinical staff. Taking care of your own well-being is vital for supporting your baby.",
+    "guidanceText": "Parent support programs emphasize emotional resilience and peer-to-peer education. Having a baby in the NICU or caring for a preterm infant at home can be emotionally taxing. It is common to experience worry, confusion, or exhaustion. Our resources help families manage stress through shared educational experiences, structured coping strategies, and guides for clear communication with clinical staff. Taking care of your own well-being is vital for supporting your baby. We advocate for dividing daily logging chores and scheduling shifts between partners to prevent extreme physical burnout. Sharing responsibilities with immediate family members ensures the primary caregiver has dedicated blocks of sleep.",
     "whenDoctor": "Consult a qualified mental health professional or general physician if you or a family member experiences persistent sadness, severe anxiety, insomnia, or inability to cope with daily caregiving activities."
   },
   {
@@ -64,7 +64,7 @@
       "Preparing emotionally and logistically for the discharge process",
       "Understanding the role of medical charts and daily rounds"
     ],
-    "guidanceText": "The Neonatal Intensive Care Unit can feel overwhelming due to unfamiliar equipment, alarms, and procedures. This resource helps clarify what to expect. Monitors measure heart rate, breathing, and oxygen saturation, while incubators provide warmth and humidity. Understanding these tools helps reduce anxiety. Parents are encouraged to collaborate with the nursing staff, ask questions during rounds, and participate in gentle care activities as approved by the clinical team.",
+    "guidanceText": "The Neonatal Intensive Care Unit can feel overwhelming due to unfamiliar equipment, alarms, and procedures. This resource helps clarify what to expect. Monitors measure heart rate, breathing, and oxygen saturation, while incubators provide warmth and humidity. Understanding these tools helps reduce anxiety. Parents are encouraged to collaborate with the nursing staff, ask questions during rounds, and participate in gentle care activities as approved by the clinical team. Learning about the specific roles of neonatologists, pediatric fellows, and neonatal nurses ensures you know who to direct your daily inquiries to. Having a grasp of terms like CPAP, TPN, and ROP screenings allows you to actively follow your baby's progress.",
     "whenDoctor": "Speak directly with the attending neonatologist or pediatric staff at your hospital for any questions regarding diagnostic results, treatment plans, or clinical procedures."
   },
   {
@@ -81,7 +81,7 @@
       "Documenting developmental progress to share with pediatricians",
       "Differentiating standard developmental timelines from corrected timelines"
     ],
-    "guidanceText": "Preterm growth and milestone tracking must always be adjusted for gestational age, using the concept of corrected age. Corrected age calculates developmental expectations based on the baby's original due date rather than the actual birth date. This is crucial for avoiding unnecessary anxiety about missed milestones. Preterm growth follows its own trajectory, and consistency of progress on a customized growth chart is more important than absolute numbers.",
+    "guidanceText": "Preterm growth and milestone tracking must always be adjusted for gestational age, using the concept of corrected age. Corrected age calculates developmental expectations based on the baby's original due date rather than the actual birth date. This is crucial for avoiding unnecessary anxiety about missed milestones. Preterm growth follows its own trajectory, and consistency of progress on a customized growth chart is more important than absolute numbers. We guide parents on how to plot weights on the Fenton growth chart up to 50 weeks gestation before transitioning to standard WHO growth curves. Monitoring motor tone consistency, tracking responsive eye contact, and recording daily physical activity helps screen for early intervention needs.",
     "whenDoctor": "Consult your pediatrician if your infant shows a persistent lack of weight gain, does not respond to sudden sounds, fails to track objects visually by their corrected age, or shows significant asymmetrical movement."
   },
   {
@@ -98,7 +98,7 @@
       "Safe storage and handling guidelines for expressed breast milk",
       "Understanding the role of human milk fortifiers under clinical advice"
     ],
-    "guidanceText": "Feeding a premature baby requires patience and close adherence to professional clinical plans. Preterm babies have higher energy and nutrient requirements but immature sucking and swallowing reflexes. Initially, they may receive nutrition through tubes, transitioning gradually to breast or bottle feeding. Responsive feeding helps recognize when the baby is ready. Always follow the specific volume and schedule prescribed by your neonatologist or lactation consultant.",
+    "guidanceText": "Feeding a premature baby requires patience and close adherence to professional clinical plans. Preterm babies have higher energy and nutrient requirements but immature sucking and swallowing reflexes. Initially, they may receive nutrition through tubes, transitioning gradually to breast or bottle feeding. Responsive feeding helps recognize when the baby is ready. Always follow the specific volume and schedule prescribed by your neonatologist or lactation consultant. Understanding how expressed breast milk differs from full-term milk allows parents to appreciate the immunological protection it offers. We explain the role of Human Milk Fortifiers (HMF) in supporting bone mineralization and building muscle mass.",
     "whenDoctor": "Seek immediate advice from your pediatrician if the baby experiences frequent vomiting, abdominal distension, refusal to feed for multiple sessions, or shows signs of dehydration such as fewer wet diapers."
   },
   {
@@ -115,7 +115,7 @@
       "Proper positioning techniques to support clear breathing passages",
       "Understanding transition off respiratory support systems"
     ],
-    "guidanceText": "Because a premature baby's lungs are among the last organs to mature, respiratory health is a primary area of focus during early development. Environmental hygiene plays a crucial role once the infant is discharged. Ensure the home is free from tobacco smoke, aerosols, strong perfumes, and excessive dust. Clean air filters regularly and position the infant on their back for sleep on a firm, flat surface to support open airways.",
+    "guidanceText": "Because a premature baby's lungs are among the last organs to mature, respiratory health is a primary area of focus during early development. Environmental hygiene plays a crucial role once the infant is discharged. Ensure the home is free from tobacco smoke, aerosols, strong perfumes, and excessive dust. Clean air filters regularly and position the infant on their back for sleep on a firm, flat surface to support open airways. We outline step-by-step methods to maintain clean nursery air using HEPA filtration systems and natural ventilation. Recognizing early respiratory fatigue during oral feedings helps parents prevent accidental choking or oxygen desaturation.",
     "whenDoctor": "Contact emergency medical services or your neonatologist immediately if your baby exhibits rapid breathing, nostril flaring, chest retractions, grunting sounds during breathing, or blue discoloration around the lips."
   },
   {
@@ -132,7 +132,7 @@
       "Involving fathers and partners in safe skin-to-skin practice",
       "Determining the duration and frequency of sessions under hospital advice"
     ],
-    "guidanceText": "Kangaroo Care, or skin-to-skin contact, involves holding your diaper-clad premature baby upright against your bare chest. This practice helps stabilize the baby's heart rate, breathing, and body temperature. It also encourages breastfeeding and promotes deeper sleep. Kangaroo care should be practiced in a relaxed state, ensuring the baby's head is turned to one side with the airway completely clear and unobstructed at all times.",
+    "guidanceText": "Kangaroo Care, or skin-to-skin contact, involves holding your diaper-clad premature baby upright against your bare chest. This practice helps stabilize the baby's heart rate, breathing, and body temperature. It also encourages breastfeeding and promotes deeper sleep. Kangaroo care should be practiced in a relaxed state, ensuring the baby's head is turned to one side with the airway completely clear and unobstructed at all times. The dynamic physiological process of thermal synchrony allows the parent's chest temperature to adapt directly to the baby's metabolic state. We offer specific positioning tips for fathers to ensure comfort and acoustic reassurance during skin contact sessions.",
     "whenDoctor": "Stop kangaroo care and inform clinical staff or consult your pediatrician if the baby appears restless, shows changes in skin color, has breathing difficulties, or if their temperature fluctuates."
   },
   {
@@ -149,7 +149,7 @@
       "Transitioning from hospital routines to responsive home parenting",
       "Recognizing emergency warning signs versus standard infant fussiness"
     ],
-    "guidanceText": "NICU discharge is a major milestone, but transitioning home requires preparation. Setting up a predictable schedule for feeding, monitoring, and sleep is helpful. Keep visitor numbers minimal to reduce infection risk, and require everyone to wash hands. Maintain a daily log tracking the number of wet and dirty diapers, feeding times, and general observations to share with your pediatrician during follow-up visits.",
+    "guidanceText": "NICU discharge is a major milestone, but transitioning home requires preparation. Setting up a predictable schedule for feeding, monitoring, and sleep is helpful. Keep visitor numbers minimal to reduce infection risk, and require everyone to wash hands. Maintain a daily log tracking the number of wet and dirty diapers, feeding times, and general observations to share with your pediatrician during follow-up visits. We provide printable visitor log grids to help families establish non-negotiable sanitization boundaries at home. Additionally, we guide parents on weight gain observation parameters to track consistent daily gram progression.",
     "whenDoctor": "Immediately contact your pediatrician or seek emergency services if the infant has a fever, shows persistent vomiting, has fewer than six wet diapers in twenty-four hours, or is unusually difficult to wake."
   },
   {
@@ -166,7 +166,7 @@
       "Understanding the boundaries and limitations of virtual healthcare",
       "Organizing prescriptions and follow-up directives digitally"
     ],
-    "guidanceText": "Telehealth is a convenient way to consult pediatricians for routine advice, development updates, and content reviews. To make the most of a virtual visit, prepare in advance. Have your baby's current weight, temperature, diaper count, and feeding logs ready. Write down your questions beforehand. Ensure you are in a quiet, well-lit room so the pediatrician can see the baby clearly if needed.",
+    "guidanceText": "Telehealth is a convenient way to consult pediatricians for routine advice, development updates, and content reviews. To make the most of a virtual visit, prepare in advance. Have your baby's current weight, temperature, diaper count, and feeding logs ready. Write down your questions beforehand. Ensure you are in a quiet, well-lit room so the pediatrician can see the baby clearly if needed. We offer a guide on how to capture short, clear video clips of non-emergency motor movements or skin observations to show your doctor during the call. Organizing digital health records ensures the virtual consult is focused and effective.",
     "whenDoctor": "Telehealth is not for emergencies. In emergency situations, bypass virtual consultations and take your baby to the nearest emergency hospital immediately."
   },
   {
@@ -183,7 +183,7 @@
       "Distinguishing verified healthcare information from unverified online claims",
       "Sharing organized digital health summaries with your pediatrician"
     ],
-    "guidanceText": "Having access to reliable, structured digital resources helps parents make informed decisions. Prematurite Digital Health offers downloadable files, milestone tracking logs, and lists of questions to guide discussions with your care team. Utilizing these resources organizes details clearly, allowing you to participate actively in your baby's developmental journey.",
+    "guidanceText": "Having access to reliable, structured digital resources helps parents make informed decisions. Prematurite Digital Health offers downloadable files, milestone tracking logs, and lists of questions to guide discussions with your care team. Utilizing these resources organizes details clearly, allowing you to participate actively in your baby's developmental journey. Our files include printable specialist questions checklists, visitor entry logs, and corrected milestone calculators. These educational guides translate clinical neonatal manuals into plain, parent-friendly language.",
     "whenDoctor": "Never rely solely on digital checklists or online resources to make clinical decisions. Consult your pediatrician before making any changes to your infant's care plan."
   },
   {
@@ -200,7 +200,7 @@
       "Creating supportive roles for siblings and extended family",
       "Establishing clear protocols for who to call in emergency situations"
     ],
-    "guidanceText": "Caring for a premature infant is a family effort. It is essential that all household members and caregivers understand the specific precautions required. Grandparents, helpers, and older siblings should be educated on why visitors are restricted, the importance of frequent handwashing, and the need for a calm environment. Aligning caregiving practices ensures consistency and protects the baby's health.",
+    "guidanceText": "Caring for a premature infant is a family effort. It is essential that all household members and caregivers understand the specific precautions required. Grandparents, helpers, and older siblings should be educated on why visitors are restricted, the importance of frequent handwashing, and the need for a calm environment. Aligning caregiving practices ensures consistency and protects the baby's health. We outline productive support chores for relatives, such as meal preparation, laundry, and nursery sanitation. Educating the family unit ensures the baby resides in an infection-free, quiet sanctuary.",
     "whenDoctor": "If any family member or caregiver notices warning signs such as erratic breathing, pale skin, extreme listlessness, or feeding refusal, they should inform the parents and seek pediatric advice immediately."
   }
 ]

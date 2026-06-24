@@ -123,5 +123,30 @@
     "category": "NICU Journey",
     "question": "What is an ROP screening, and why is it scheduled?",
     "answer": "ROP stands for Retinopathy of Prematurity, an abnormal growth of blood vessels in the retina common in babies born before thirty-two weeks or under 1,500 grams. Regular eye examinations are scheduled in the NICU and after discharge to monitor development and prevent complications."
+  },
+  {
+    "category": "Home Care",
+    "question": "What is the recommended immunization and vaccine schedule for preterm infants?",
+    "answer": "Premature babies should receive their immunizations based on their chronological age (actual age since birth) rather than their corrected gestational age, following the standard national immunization schedule in India. Vaccines are critical for preterm infants due to their higher susceptibility to respiratory and bacterial infections. Any adjustments or additional protective therapies must be decided exclusively by your pediatrician."
+  },
+  {
+    "category": "Home Care",
+    "question": "Are there travel restrictions for a preterm baby after NICU discharge?",
+    "answer": "Pediatricians generally advise restricting non-essential travel and avoiding public transport, flights, or crowded spaces for at least the first three to six months post-discharge. Preterm lungs and immune systems are fragile, and exposure to recycled air or crowded environments increases infection risks. Essential trips to pediatric follow-ups should be conducted in a clean, private vehicle with minimal exposure."
+  },
+  {
+    "category": "Home Care",
+    "question": "What is the ideal clothing configuration for a preterm baby at home?",
+    "answer": "The clothing configuration should consist of layers of breathable, pre-washed, 100% organic cotton. A standard home configuration includes a cotton diaper, a snap-button onesie, a footed sleeper sleepsuit, and a soft cotton cap to prevent heat loss from the head. Avoid synthetic fabrics, metal zippers that touch the skin, or heavy woolens that can trap moisture or cause overheating."
+  },
+  {
+    "category": "Home Care",
+    "question": "How should we handle bathing for a preterm infant at home?",
+    "answer": "Avoid full tub baths or submerging the baby until their skin barrier is mature and they maintain their temperature reliably. Instead, perform gentle sponge baths in a draft-free, warm room (24°C) using warm water and a soft cotton washcloth once or twice a week. Clean skin creases gently, and ensure the baby is patted dry immediately and wrapped in a warm towel."
+  },
+  {
+    "category": "Feeding and Nutrition",
+    "question": "How do we know if our baby is getting enough milk at home?",
+    "answer": "Track daily hydration and feeding parameters. A well-hydrated preterm baby should produce between six and eight heavy, wet diapers and have at least two to three soft stools in a twenty-four hour period. Regular weekly weight gain of 15 to 30 grams is the most reliable clinical indicator of adequate milk intake."
   }
 ]

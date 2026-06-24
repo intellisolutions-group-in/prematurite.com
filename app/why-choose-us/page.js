@@ -126,10 +126,58 @@ export default function WhyChooseUsPage() {
                   <td className="p-4">Mainly US/Western settings (Fahrenheit scales, clinical discharge systems).</td>
                   <td className="p-4 font-medium text-brand-deep bg-brand-rose/10">Tailored to Indian households (Celsius temperatures, local hygiene parameters).</td>
                 </tr>
+                <tr>
+                  <td className="p-4 font-semibold text-brand-deep">Linguistic Accessibility</td>
+                  <td className="p-4">Written in dense, academic terminology that is difficult for anxious parents in waiting rooms to digest.</td>
+                  <td className="p-4 font-medium text-brand-deep bg-brand-rose/10">Simplified, supportive English with structured tables and clear bullet points for parent accessibility.</td>
+                </tr>
               </tbody>
             </table>
           </div>
         </ScrollReveal>
+      </section>
+
+      {/* NEW SECTION: CONTENT SOURCING AUDIT FRAMEWORK */}
+      <section className="py-16 md:py-24 bg-brand-rose/10 px-4 border-t border-brand-coral/10">
+        <div className="max-w-7xl mx-auto space-y-12 animate-fade-in">
+          <ScrollReveal direction="up" className="text-center max-w-3xl mx-auto space-y-4">
+            <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-brand-coral">
+              Editorial Pipeline
+            </span>
+            <h2 className="text-2xl md:text-4xl font-display font-extrabold text-brand-deep">
+              Quality Sourcing Audit Framework
+            </h2>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              How we process, verify, and clean up educational guidelines before publication.
+            </p>
+          </ScrollReveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <ScrollReveal direction="up" delay={0.1} className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 shadow-soft space-y-3">
+              <span className="text-xs font-sans font-bold text-brand-coral uppercase block">Step 1: Clinical Retrieval</span>
+              <h3 className="font-display font-bold text-brand-deep text-base">Verify Sourcing</h3>
+              <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+                Extract raw data guidelines strictly from verified neonatology documents (WHO Preterm Care and Indian Academy of Pediatrics clinical guides).
+              </p>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={0.2} className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 shadow-soft space-y-3">
+              <span className="text-xs font-sans font-bold text-brand-coral uppercase block">Step 2: Lexical Translation</span>
+              <h3 className="font-display font-bold text-brand-deep text-base">Simplify Vocabulary</h3>
+              <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+                Translate academic neonatal terms into warm, simple, supportive caregiver phrases while maintaining technical accuracy.
+              </p>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={0.3} className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 shadow-soft space-y-3">
+              <span className="text-xs font-sans font-bold text-brand-coral uppercase block">Step 3: Boundary Enforcements</span>
+              <h3 className="font-display font-bold text-brand-deep text-base">Verify Compliance</h3>
+              <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+                Filter out any statements recommending medication, dosage estimates, or diagnostic criteria. Ensure pediatric referrals are present.
+              </p>
+            </ScrollReveal>
+          </div>
+        </div>
       </section>
 
       {/* 3. TRUST DETAILS */}

@@ -189,8 +189,8 @@ export default async function BlogDetailPage({ params }) {
           </p>
         </div>
         <div className="md:col-span-4 flex justify-end">
-          <Button href="/resources/" id={`article-resources-cta-${slug}`}>
-            Explore Downloads
+          <Button href="/blog/" id={`article-resources-cta-${slug}`}>
+            Explore More Articles
           </Button>
         </div>
       </section>

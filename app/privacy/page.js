@@ -11,7 +11,6 @@ export default function PrivacyPolicyPage() {
         <h1 className="text-3xl md:text-5xl font-display font-extrabold text-brand-deep tracking-tight">
           Privacy Policy
         </h1>
-        <p className="text-brand-brown text-sm">Last Updated: June 23, 2026</p>
         <div className="h-1 w-12 bg-brand-coral rounded-full mt-4" />
       </ScrollReveal>
 
@@ -26,6 +25,9 @@ export default function PrivacyPolicyPage() {
         <p>
           If you contact us directly or submit an inquiry through our forms (General Contact Form, Quick Inquiry Form, Career Application Form), we may collect your name, email address, the message details you provide, and any attachments such as resumes.
         </p>
+        <p>
+          In accordance with the Digital Personal Data Protection (DPDP) Act, 2023, and the Information Technology Act, 2000 of India, we strictly limit data collection to essential contact details. We do not collect, request, or store sensitive personal information, clinical health reports, genetic records, or medical diagnostic profiles of infants. All submitted text messages or FAQ queries are treated as non-clinical, educational inquiries.
+        </p>
 
         <h2 className="font-display font-bold text-brand-deep text-lg md:text-xl mt-6">
           2. How We Use Your Information
@@ -39,6 +41,7 @@ export default function PrivacyPolicyPage() {
           <li>Understand and analyze how visitors interact with our resources.</li>
           <li>Develop new digital calculators, checklists, and parent support guides.</li>
           <li>Respond to your direct inquiries or evaluate career applications.</li>
+          <li>Ensure security and prevent fraud across our web forms.</li>
         </ul>
 
         <h2 className="font-display font-bold text-brand-deep text-lg md:text-xl mt-6">
@@ -49,7 +52,41 @@ export default function PrivacyPolicyPage() {
         </p>
 
         <h2 className="font-display font-bold text-brand-deep text-lg md:text-xl mt-6">
-          4. Consent
+          4. Data Security & Storage
+        </h2>
+        <p>
+          The security of your personal data is highly important to us. We implement industry-standard technical and organizational safety measures to protect your submitted contact information from unauthorized access, alteration, disclosure, or destruction. All form submissions are handled over secure cryptographic protocols (HTTPS) and access is strictly restricted to administrative staff on a need-to-know basis.
+        </p>
+
+        <h2 className="font-display font-bold text-brand-deep text-lg md:text-xl mt-6">
+          5. User Rights & Data Erasure
+        </h2>
+        <p>
+          Under Indian statutory regulations, users retain full rights to control their personal data. You have the right to request a summary of the personal contact details we hold about you, request corrections to any inaccurate details, or demand the complete erasure of your contact form messages or career resumes from our databases. To exercise these rights, please contact us through our dedicated contact page.
+        </p>
+
+        <h2 className="font-display font-bold text-brand-deep text-lg md:text-xl mt-6">
+          6. Grievance Officer & Contact Information
+        </h2>
+        <p>
+          In accordance with the Digital Personal Data Protection (DPDP) Act, 2023, if you have any questions, concerns, or grievances regarding the processing of your personal contact data under this Privacy Policy, you may contact our designated Grievance Team.
+        </p>
+        <p>
+          Please send all inquiries to our support email: **info@prematurite.com**. We aim to respond to and resolve all data protection queries or data erasure requests within thirty business days.
+        </p>
+
+        <h2 className="font-display font-bold text-brand-deep text-lg md:text-xl mt-6">
+          7. Children's Privacy Guidelines
+        </h2>
+        <p>
+          As an educational resource platform, Prematurite Digital Health does not knowingly collect, solicit, or store personal identifiable information from children under the age of 18. We encourage parents, guardians, and immediate caregivers to monitor and guide children's internet usage.
+        </p>
+        <p>
+          If you believe that a minor has submitted personal contact information or resume details through our web forms, please contact us immediately, and we will take immediate steps to remove such records from our databases.
+        </p>
+
+        <h2 className="font-display font-bold text-brand-deep text-lg md:text-xl mt-6">
+          8. Consent
         </h2>
         <p>
           By using our website, you hereby consent to our Privacy Policy and agree to its terms.

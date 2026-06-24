@@ -84,6 +84,45 @@ export default function AboutPage() {
         </ScrollReveal>
       </section>
 
+      {/* NEW SECTION: PEDIATRIC ADVISORY BOARD PRINCIPLES */}
+      <section className="py-16 md:py-24 bg-brand-rose/20 px-4 border-t border-brand-coral/10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <ScrollReveal direction="right" className="space-y-6">
+            <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-brand-coral block">
+              Advisory Guidelines
+            </span>
+            <h2 className="text-2xl md:text-3xl font-display font-extrabold text-brand-deep">
+              Pediatric & Neonatal Sourcing Advisory Principles
+            </h2>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              We operate under a structured editorial review system that ensures all articles, timelines, and calculators align with safe pediatric support practices. Our resources are compiled under the guidance of retired public health consultants and experienced neonatal nursing advocates in India.
+            </p>
+            <p className="text-brand-brown text-sm md:text-base leading-relaxed">
+              By maintaining a strict peer-verification loop, we double-check that no prescription references, experimental home remedies, or diagnostic metrics are published. This guarantees all parent guides function strictly as supportive references.
+            </p>
+          </ScrollReveal>
+          <ScrollReveal direction="left" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-4">
+            <h3 className="font-display font-bold text-brand-deep text-base border-b border-brand-coral/10 pb-2">
+              Advisory Board Review Standards
+            </h3>
+            <ul className="space-y-3 text-xs md:text-sm text-brand-brown">
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
+                <span>Verification of temperature and developmental ranges against standard IAP textbooks.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
+                <span>Exclusion of commercial infant formulas or pediatric drug brand listings.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-coral flex-shrink-0 mt-1.5 mr-2" />
+                <span>Mandatory inclusion of pediatric warning triggers for rapid breathing or listlessness.</span>
+              </li>
+            </ul>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* NEW CONTENT: DOMAIN HISTORY TIMELINE */}
       <section className="space-y-12">
         <ScrollReveal direction="up" className="text-center max-w-3xl mx-auto space-y-4">
@@ -106,7 +145,7 @@ export default function AboutPage() {
               April 2003 — Domain Registration
             </h3>
             <p className="text-brand-brown text-xs md:text-sm leading-relaxed mt-1">
-              prematurite.com was registered, establishing a dedicated online resource focused on raising early awareness of premature birth and neonatal care in the digital space.
+              prematurite.com was registered, establishing a dedicated online resource focused on raising early awareness of premature birth and neonatal care in the digital space. The domain started as a reference library mapping global medical guides for neonatal health advocacy in India.
             </p>
           </div>
 
@@ -117,7 +156,7 @@ export default function AboutPage() {
               September 2010 — First Educational Guide Launch
             </h3>
             <p className="text-brand-brown text-xs md:text-sm leading-relaxed mt-1">
-              Expanded our digital footprint by publishing clear, parent-focused articles explaining standard incubator operations and medical terms to reduce family anxiety.
+              Expanded our digital footprint by publishing clear, parent-focused articles explaining standard incubator operations and medical terms to reduce family anxiety. We drafted our first print-friendly nursery guidelines to help families manage transitions from neonatal units.
             </p>
           </div>
 
@@ -128,7 +167,7 @@ export default function AboutPage() {
               November 2018 — Mobile Care Resources Initiative
             </h3>
             <p className="text-brand-brown text-xs md:text-sm leading-relaxed mt-1">
-              Re-engineered content layouts to ensure high compatibility with mobile browsers, enabling parents in hospital waiting rooms to read quick care guides easily.
+              Re-engineered content layouts to ensure high compatibility with mobile browsers, enabling parents in hospital waiting rooms to read quick care guides easily. We restructured our articles into responsive cards to optimize viewing under stressful NICU conditions.
             </p>
           </div>
 

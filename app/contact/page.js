@@ -87,13 +87,13 @@ export default function ContactPage() {
       <section className="bg-brand-rose/10 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6 animate-fade-in">
         <ScrollReveal direction="up" className="space-y-2 text-center max-w-3xl mx-auto">
           <span className="text-xs md:text-sm font-sans font-bold tracking-widest uppercase text-brand-coral">
-            Inquiry Guidance
+            Inquiry Guidance & Compliance
           </span>
           <h2 className="text-xl md:text-3xl font-display font-extrabold text-brand-deep">
             How We Handle Your Queries & Feedback
           </h2>
           <p className="text-brand-brown text-sm leading-relaxed">
-            Please read these guidelines to understand the scope of our helpline communications.
+            Please read these guidelines to understand the scope and statutory safety of our helpline communications.
           </p>
         </ScrollReveal>
 
@@ -137,6 +137,15 @@ export default function ContactPage() {
               </li>
             </ul>
           </div>
+        </div>
+
+        <div className="pt-6 border-t border-brand-coral/10 text-brand-brown text-xs leading-relaxed space-y-3">
+          <p>
+            <strong>DPDP Act, 2023 & Privacy Compliance Note:</strong> In compliance with the Digital Personal Data Protection Act, 2023 (India), all name and email details submitted through these forms are encrypted during transmission and stored on secure servers. They are used exclusively to process your specific educational inquiry or evaluate your career application. We do not sell, rent, or distribute this database to any third-party healthcare agencies.
+          </p>
+          <p>
+            <strong>Your Right to Erasure:</strong> Under Indian statutory regulations, you hold the right to demand complete erasure of your inquiry details or resume files from our servers at any time. To request deletion of your form logs, please submit a short request stating your name and email through the contact form, and our system administrator will purge your records within 48 hours.
+          </p>
         </div>
       </section>
 

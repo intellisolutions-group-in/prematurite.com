@@ -18,6 +18,7 @@ export default function DoctorQuestionsChecklist() {
     { id: 'discharge', name: 'Discharge Prep' },
     { id: 'followup', name: 'Follow-up Visits' },
     { id: 'referrals', name: 'Specialist Referrals' },
+    { id: 'sensory', name: 'Audiology & Vision' },
     { id: 'emergency', name: 'Emergency Signs' },
     { id: 'home', name: 'Home Care' }
   ];
@@ -85,6 +86,15 @@ export default function DoctorQuestionsChecklist() {
       'Are early intervention occupational or physical therapy consults recommended to monitor motor progress?',
       'Does our baby require follow-up visits with a pediatric cardiologist or pulmonologist?',
       'Who coordinates the referral bookings and sends clinical summaries to these specialists?'
+    ],
+    sensory: [
+      'What stage of Retinopathy of Prematurity (ROP) was noted during the last dilated eye examination?',
+      'Are both eyes developing symmetrically, or is there any sign of aggressive posterior ROP?',
+      'When is the next ophthalmology screening scheduled, and does the dilation need to happen at the clinic or before?',
+      'Did our baby pass the newborn hearing screening (OAE - Otoacoustic Emissions or AABR - Automated Auditory Brainstem Response) in both ears?',
+      'If a re-test is required for the audiology screening, by what week must it be completed to ensure early detection?',
+      'What behavioral hearing cues (such as startle reflex to sudden claps or calming to mother\'s voice) should we monitor at home?',
+      'Who is the primary pediatric ophthalmologist or audiologist we should contact if we note visual tracking lag or lack of auditory response?'
     ]
   };
 

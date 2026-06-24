@@ -2,7 +2,7 @@
   {
     "id": "resource-care-basics-pdf",
     "title": "Premature Baby Home Care: The Essential Nursery Checklist",
-    "summary": "A comprehensive guide on maintaining standard room temperature, nursery hygiene, diaper monitoring, and basic infant comfort at home.",
+    "summary": "A comprehensive home care checklist detailing room heating parameters (22°C to 24°C), room hygiene standards, dust mite exclusion, clothing layering guidelines, and newborn sleep hygiene. It includes practical tips on nursery ventilation and nursery setup away from AC vents.",
     "category": "Premature Baby Care Basics",
     "readTime": "10 min read",
     "fileSize": "1.2 MB",
@@ -11,7 +11,7 @@
   {
     "id": "resource-nicu-glossary-pdf",
     "title": "Understanding the NICU: Medical Terms & Equipment Guide",
-    "summary": "A quick glossary explaining standard neonatal equipment like incubators, phototherapy lights, and cardiorespiratory monitors in parent-friendly terms.",
+    "summary": "A parent-friendly dictionary explaining neonatal ICU equipment (incubators, phototherapy lights, mechanical ventilators, CPAP, nasal cannulas) and common terms (TPN, bradycardia, ROP screenings, apnea of prematurity) to reduce parental stress during hospital rounds.",
     "category": "NICU Parent Education",
     "readTime": "8 min read",
     "fileSize": "950 KB",
@@ -20,7 +20,7 @@
   {
     "id": "resource-feeding-log-pdf",
     "title": "Daily Feeding & Hydration Log Sheet",
-    "summary": "A printable tracking sheet to record daily feeding times, expressed breast milk volumes, and wet/dirty diaper counts to share with your pediatrician.",
+    "summary": "A printable daily grid sheet for recording expressed breast milk (EBM) feed volumes, gavage tube timings, transition feedings, daily vitamin supplement doses, and wet/dirty diaper tracking. It helps parents monitor hydration levels and easily share accurate records with their pediatrician.",
     "category": "Feeding and Nutrition Awareness",
     "readTime": "5 min read",
     "fileSize": "400 KB",
@@ -29,7 +29,7 @@
   {
     "id": "resource-milestone-calculator-pdf",
     "title": "Preterm Developmental Milestones & Corrected Age Chart",
-    "summary": "Step-by-step instructions on calculating corrected gestational age, with a timeline of developmental milestones adjusted for premature infants.",
+    "summary": "Detailed, step-by-step instructions on calculating corrected age based on birth gestational week and due date. Includes a physical milestone tracking index adjusted for preterm infants covering motor skills, visual tracking, social smiling, and cooing.",
     "category": "Growth and Milestone Tracking",
     "readTime": "12 min read",
     "fileSize": "1.5 MB",
@@ -38,7 +38,7 @@
   {
     "id": "resource-kmc-guide-pdf",
     "title": "Kangaroo Mother Care: Step-by-Step Position Guide",
-    "summary": "Illustrated safety instructions on how to secure your preterm infant upright against your chest for safe and comfortable skin-to-skin contact.",
+    "summary": "An illustrated positioning guide detailing upright frog positioning, chest placement, secure wrapping techniques, and skin-to-skin temperature regulation. Features critical safety red flags detailing when to stop KMC and return the infant to the incubator.",
     "category": "Kangaroo Care Education",
     "readTime": "7 min read",
     "fileSize": "850 KB",
@@ -47,7 +47,7 @@
   {
     "id": "resource-discharge-checklist-pdf",
     "title": "Ready for Discharge: Hospital to Home Transition Guide",
-    "summary": "A preparation checklist covering car seat guidelines, pediatric appointment schedules, emergency warning signs, and nursery organization.",
+    "summary": "A comprehensive checklist outlining pediatric appointment scheduling, emergency sign indices (fever, rapid breathing, skin paleness), nursery boundary setup, sanitization protocols, and baby car seat safety guidelines to secure a smooth NICU-to-home transition.",
     "category": "Post-Discharge Home Care",
     "readTime": "15 min read",
     "fileSize": "2.1 MB",
@@ -56,7 +56,7 @@
   {
     "id": "resource-doctor-questions-pdf",
     "title": "Questions to Ask Your Pediatrician & Neonatal Care Team",
-    "summary": "Categorized questions regarding feeding, breathing, growth tracker data, and development markers to help prepare for clinical follow-ups.",
+    "summary": "Printable lists of questions categorized by care stage (NICU, Feeding, ROP Eye Screenings, Audiology Hearing Re-tests, Specialist Referrals, Home Care). It enables parents to confidently document answers and coordinate care during checkups.",
     "category": "Questions to Ask Your Doctor",
     "readTime": "6 min read",
     "fileSize": "350 KB",
@@ -65,7 +65,7 @@
   {
     "id": "resource-family-support-pdf",
     "title": "Emotional Resilience & Caregiver Support Manual",
-    "summary": "A guide for parents on managing stress, communicating with family members, sharing caregiving duties, and preventing emotional burnout.",
+    "summary": "A mental health manual for parents outlining caregiver burnout indicators, partner night-shift scheduling templates (evening vs. early morning split shifts), relative boundary guidelines for Indian households, and non-contact family chore lists.",
     "category": "Family Support Resources",
     "readTime": "9 min read",
     "fileSize": "1.1 MB",
