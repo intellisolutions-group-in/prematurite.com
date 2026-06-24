@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "quote": "Prematurite helped us understand the basics of premature baby care in simple language. It gave our family better clarity before speaking with our doctor.",
+    "author": "A Mother from Vadodara",
+    "role": "Parent of late-preterm infant"
+  },
+  {
+    "id": 2,
+    "quote": "The explanation of corrected age saved us so much worry. We were comparing our child to full-term milestones, but the resources here explained the right math.",
+    "author": "A Father from Pune",
+    "role": "Parent of very preterm infant"
+  },
+  {
+    "id": 3,
+    "quote": "Entering the NICU was terrifying. The guides explaining common hospital equipment and terms helped us feel like partners in our baby's care rather than outsiders.",
+    "author": "A Parent from Bengaluru",
+    "role": "Parent of moderately preterm infant"
+  },
+  {
+    "id": 4,
+    "quote": "The checklists for doctor visits are extremely practical. We were able to write down our questions in advance and get specific guidelines from our neonatologist.",
+    "author": "A Family Caregiver from Surat",
+    "role": "Grandparent and caregiver"
+  },
+  {
+    "id": 5,
+    "quote": "Having a structured guide on how to prepare the home environment and restrict visitors safely helped us explain things to our extended family in a polite, objective way.",
+    "author": "A Mother from Ahmedabad",
+    "role": "Parent of extremely preterm infant"
+  },
+  {
+    "id": 6,
+    "quote": "The kangaroo care instructions were very helpful. It explained the safety precautions clearly and gave my husband the confidence to participate in skin-to-skin bonding.",
+    "author": "A Parent from Mumbai",
+    "role": "Parent of twins born at 33 weeks"
+  },
+  {
+    "id": 7,
+    "quote": "We appreciated the strong focus on pediatrician guidance. The site does not make false medical claims; it simply educates and guides you back to your clinical team.",
+    "author": "A Father from Chennai",
+    "role": "Parent of preterm infant"
+  },
+  {
+    "id": 8,
+    "quote": "The transition to home was made much easier with the post-discharge advice. Knowing how to maintain a sanitation station and check room temperature was key.",
+    "author": "A Mother from Kolkata",
+    "role": "Parent of preterm baby girl"
+  },
+  {
+    "id": 9,
+    "quote": "The resources on feeding cues helped us observe our baby more closely at home. Our pediatrician was impressed by the detailed feeding logs we kept.",
+    "author": "A Family Caregiver from Hyderabad",
+    "role": "Uncle and caregiver"
+  },
+  {
+    "id": 10,
+    "quote": "An excellent digital library that is focused entirely on parent education. The warm tone is very supportive during a stressful time in our lives.",
+    "author": "A Parent from Jaipur",
+    "role": "Parent of premature baby boy"
+  }
+]

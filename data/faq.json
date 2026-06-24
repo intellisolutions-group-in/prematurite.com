@@ -1,0 +1,102 @@
+[
+  {
+    "category": "Premature Baby Basics",
+    "question": "What is considered a premature birth?",
+    "answer": "A premature or preterm birth is defined as any delivery that occurs before thirty-seven completed weeks of gestation. Typical pregnancies last around forty weeks. Preterm infants are categorized based on their gestational age at birth, ranging from late preterm to extremely preterm."
+  },
+  {
+    "category": "Premature Baby Basics",
+    "question": "Why do premature babies require specialized care?",
+    "answer": "Because they are born early, premature babies have had less time to develop their organ systems in the womb. Their lungs, digestive systems, immune systems, and skin are still maturing. They require a warm, controlled environment to protect them from infections and support their developmental needs."
+  },
+  {
+    "category": "Premature Baby Basics",
+    "question": "Is premature birth common in India?",
+    "answer": "Yes, preterm birth is a common event globally and in India. Neonatal medicine has progressed significantly, and the vast majority of late and moderately preterm babies grow up healthy with proper home care and routine pediatric follow-ups."
+  },
+  {
+    "category": "NICU Journey",
+    "question": "What does NICU stand for?",
+    "answer": "NICU stands for Neonatal Intensive Care Unit. It is a specialized hospital ward equipped with advanced technology and clinical experts dedicated specifically to the monitoring, warmth, and medical support of newborn and premature infants."
+  },
+  {
+    "category": "NICU Journey",
+    "question": "Why do monitors in the NICU beep so frequently?",
+    "answer": "NICU monitors are highly sensitive and track heart rates, respiratory rates, and oxygen saturation. Alarms often trigger due to minor infant movements, loose sensors, or routine physiological shifts. The nursing staff monitor these continuously and know when clinical intervention is required."
+  },
+  {
+    "category": "NICU Journey",
+    "question": "How can I bond with my baby while they are in an incubator?",
+    "answer": "You can bond with your baby by speaking to them in a quiet voice, placing your hand still on their head and feet (containment hold), and practicing skin-to-skin contact (Kangaroo Mother Care) once they are medically stable and approved by the neonatologist."
+  },
+  {
+    "category": "NICU Journey",
+    "question": "What criteria must be met before a preterm baby is discharged from the NICU?",
+    "answer": "Generally, hospitals require that a premature baby can maintain their body temperature in an open crib, feed successfully (by breast or bottle), show consistent weight gain, and experience no episodes of apnea or bradycardia for a set period."
+  },
+  {
+    "category": "Feeding and Nutrition",
+    "question": "Why is breast milk so important for premature infants?",
+    "answer": "Breast milk contains protective antibodies, proteins, and fats that are specifically tailored to the premature infant's sensitive gut. It significantly reduces the risk of severe intestinal infections and is easier for their developing digestive system to absorb."
+  },
+  {
+    "category": "Feeding and Nutrition",
+    "question": "What is a Human Milk Fortifier (HMF)?",
+    "answer": "Human Milk Fortifier is a nutritional supplement containing protein, calcium, phosphorus, and vitamins. It is added to expressed breast milk under strict clinical guidance to meet the high metabolic demands of very low birth weight babies."
+  },
+  {
+    "category": "Feeding and Nutrition",
+    "question": "How do premature babies feed if they cannot suck yet?",
+    "answer": "Infants born before thirty-two to thirty-four weeks often receive breast milk or formula through a small, soft tube inserted through the nose or mouth into the stomach (gavage feeding). This allows them to receive nutrition safely until their coordination develops."
+  },
+  {
+    "category": "Feeding and Nutrition",
+    "question": "What is the transition from tube feeding to oral feeding like?",
+    "answer": "It is a gradual process that depends on neurological maturity. The baby starts with small daily oral trials (breast or bottle) and completes the rest via the tube, slowly building the muscle stamina required for full oral feeding."
+  },
+  {
+    "category": "Growth and Development",
+    "question": "What is corrected age and why is it used?",
+    "answer": "Corrected age is the age of the baby adjusted for their prematurity. It is calculated by subtracting the weeks the baby was born early from their actual chronological age. It is used to evaluate developmental milestones realistically."
+  },
+  {
+    "category": "Growth and Development",
+    "question": "How long should we use corrected age for milestones?",
+    "answer": "Pediatricians recommend calculating and using corrected age when tracking physical growth and motor, speech, and social milestones until the child is approximately two to two and a half years old."
+  },
+  {
+    "category": "Growth and Development",
+    "question": "How do preterm baby growth charts differ from standard charts?",
+    "answer": "Preterm growth charts (like the Fenton chart) track development from early gestational weeks and evaluate growth progression based on preterm baselines rather than term standards, focusing on the consistency of the growth curve."
+  },
+  {
+    "category": "Home Care",
+    "question": "What room temperature is recommended for a premature baby at home?",
+    "answer": "It is generally recommended to maintain a steady room temperature between twenty-two and twenty-four degrees Celsius. Keep the baby away from direct air conditioning vents, drafts, and open windows."
+  },
+  {
+    "category": "Home Care",
+    "question": "Why must visitors be restricted in the early weeks at home?",
+    "answer": "Preterm infants have highly vulnerable immune systems. Limiting visitors reduces the risk of exposure to common viruses, which can lead to serious respiratory complications in early infancy."
+  },
+  {
+    "category": "Home Care",
+    "question": "How do I know if my baby is dressed warmly enough?",
+    "answer": "Check the temperature of your baby's chest or the back of their neck. Hands and feet will naturally feel cooler. Dress the baby in layers, usually one layer more than what is comfortable for an adult in the same room."
+  },
+  {
+    "category": "Website and Resources",
+    "question": "Can I download templates or lists from this website?",
+    "answer": "Yes, Prematurite Digital Health offers downloadable lists of questions to ask your doctor, daily care logs, and milestone trackers in our Resource Library for educational use."
+  },
+  {
+    "category": "Website and Resources",
+    "question": "Does this website provide online medical consultations?",
+    "answer": "No. Prematurite Digital Health is an educational and informational platform. We do not provide medical diagnoses, treatment plans, prescriptions, or clinical consultations. Always consult your pediatrician for medical care."
+  },
+  {
+    "category": "Medical Disclaimer",
+    "question": "What should I do if my baby shows signs of illness?",
+    "answer": "Do not rely on this website or any online source for diagnostic information. Contact your pediatrician or neonatologist immediately, or take your baby to the nearest emergency hospital if the symptoms appear severe or urgent."
+  }
+]

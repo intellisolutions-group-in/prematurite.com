@@ -1,0 +1,36 @@
+{
+  "header": [
+    { "name": "Home", "path": "/" },
+    { "name": "About", "path": "/about/" },
+    { "name": "Prematurity", "path": "/what-is-prematurity/" },
+    { "name": "Baby Care", "path": "/premature-baby-care/" },
+    { "name": "NICU Journey", "path": "/nicu-journey/" },
+    { "name": "Resources", "path": "/resources/" },
+    { "name": "Blog", "path": "/blog/" },
+    { "name": "FAQ", "path": "/faq/" },
+    { "name": "Contact", "path": "/contact/" }
+  ],
+  "footer": {
+    "quickLinks": [
+      { "name": "Home", "path": "/" },
+      { "name": "About Us", "path": "/about/" },
+      { "name": "Why Choose Us", "path": "/why-choose-us/" },
+      { "name": "Our Approach", "path": "/our-approach/" },
+      { "name": "Testimonials", "path": "/testimonials/" },
+      { "name": "Careers", "path": "/careers/" }
+    ],
+    "topics": [
+      { "name": "Premature Baby Care Guidance", "path": "/services/premature-baby-care-guidance/" },
+      { "name": "Neonatal Health Education", "path": "/services/neonatal-health-education/" },
+      { "name": "Parent Support Programs", "path": "/services/parent-support-programs/" },
+      { "name": "NICU Journey Support", "path": "/services/nicu-journey-support/" },
+      { "name": "Feeding and Nutrition Guidance", "path": "/services/feeding-nutrition-guidance/" },
+      { "name": "Kangaroo Care Education", "path": "/services/kangaroo-care-education/" }
+    ],
+    "legal": [
+      { "name": "Medical Disclaimer", "path": "/medical-disclaimer/" },
+      { "name": "Privacy Policy", "path": "/privacy/" },
+      { "name": "Terms of Service", "path": "/terms/" }
+    ]
+  }
+}

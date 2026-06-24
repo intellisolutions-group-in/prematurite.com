@@ -1,0 +1,50 @@
+[
+  {
+    "id": "nicu-journey-story",
+    "title": "Understanding the NICU Journey",
+    "summary": "How a family from Noida learned to navigate the complex environment of the Neonatal Intensive Care Unit and find their role in the care process.",
+    "scenario": "General Educational Scenario: Understanding Neonatal Unit Environments",
+    "content": "When their baby was born at 31 weeks, the family was shocked by the sights and sounds of the NICU. They felt disconnected, watching their baby through the incubator glass. Through educational guides, they learned that the alarms and tubes were normal supportive measures. They began practicing silent containment holds, placing their hands gently on the baby's head and feet, and talking in soft whispers. They realized that while nurses managed clinical tasks, they were essential for providing sensory comfort and stability.",
+    "takeaway": "Parents are an integral part of the neonatal unit care team, providing emotional and sensory stability that clinical machines cannot replicate."
+  },
+  {
+    "id": "corrected-age-story",
+    "title": "Learning About Corrected Age",
+    "summary": "A mother from Nagpur explains how adjusting developmental milestones for gestational age helped reduce family anxiety.",
+    "scenario": "General Educational Scenario: Developmental Milestone Tracking",
+    "content": "Chronologically, the baby was six months old, but family members were worried because he was not sitting up or reaching for toys like neighboring babies. After learning about the corrected age calculation, the mother realized that since the baby was born 8 weeks early, his corrected age was only four months. When evaluated against standard four-month milestones, his development was right on track. Explaining this calculation to the grandparents helped align expectations and brought peace of mind.",
+    "takeaway": "Milestones for preterm infants must be evaluated using corrected age (actual age minus weeks born early) until about two years of age."
+  },
+  {
+    "id": "discharge-preparation-story",
+    "title": "Preparing for Post-Discharge Care",
+    "summary": "A family from Kochi shares their checklist-based transition from hospital incubator to the home nursery.",
+    "scenario": "General Educational Scenario: Transitioning Home Safely",
+    "content": "Preparing for discharge was a nervous milestone. The parents set up a dedicated nursery space, cleaned all air filters, and set up a sanitizing station at the entrance. They agreed on strict rules: no visitors for the first month, and mandatory handwashing for primary caregivers. They maintained a consistent room temperature of 23 degrees Celsius and dressed the baby in layers. These clear, practical preparations helped them transition smoothly from clinical monitors to responsive home parenting.",
+    "takeaway": "A clean, temperature-regulated environment and strict hygiene guidelines protect preterm infants from respiratory and immune challenges post-discharge."
+  },
+  {
+    "id": "doctor-communication-story",
+    "title": "Asking Better Questions During Doctor Visits",
+    "summary": "How a father from Bhopal used structured checklists to communicate effectively with pediatricians during follow-up visits.",
+    "scenario": "General Educational Scenario: Clinical Communication",
+    "content": "In the early pediatric checkups, the father felt rushed and often forgot to ask important questions about feeding volumes and growth percentiles. He began using a structured checklist, writing down observations about diaper counts, sleep patterns, and reflux frequency. During the next consultation, he presented this log clearly. This approach allowed the pediatrician to make precise adjustments to the feeding plan and helped the father feel confident that all clinical concerns were covered.",
+    "takeaway": "Documenting daily feeding and developmental logs helps parents present clear, actionable data to pediatricians during routine appointments."
+  },
+  {
+    "id": "feeding-transition-story",
+    "title": "Managing Feeding Confusions Responsibly",
+    "summary": "A mother from Ludhiana navigates the transition from tube feeds to direct breastfeeding under clinical guidance.",
+    "scenario": "General Educational Scenario: Feeding Development",
+    "content": "The baby had been fed through a gavage tube in the NICU. Transitioning to oral feeds at home felt slow and tiring. The baby would fall asleep after a few minutes of nursing. Rather than forcing the feed, the mother learned to watch for early hunger cues like rooting and hand-to-mouth movements. She coordinated with a lactation counselor and her pediatrician, implementing a mixed routine of breastfeeds and expressed milk bottle feeds. This patience allowed the baby to build sucking endurance naturally.",
+    "takeaway": "Transitioning to oral feeding is a developmental process that requires patience and must be adjusted under the guidance of a pediatrician or lactation expert."
+  },
+  {
+    "id": "emotional-adjustment-story",
+    "title": "Supporting Parents Emotionally",
+    "summary": "A family from Patna shares the importance of mental health awareness for primary caregivers during the home-care phase.",
+    "scenario": "General Educational Scenario: Caregiver Emotional Health",
+    "content": "The constant checking of breathing monitors and the fear of infections left the mother exhausted and anxious. The father recognized these signs of caregiver burnout. They established a system where they divided shifts for night checks, allowing each other to sleep. They also reached out to a parent support group online to share experiences. They realized that caring for their own mental and physical health was not selfish, but necessary for the safety and development of their premature baby.",
+    "takeaway": "Caregiver emotional stability is a crucial component of preterm care; parents must balance vigilance with rest and seek emotional support when needed."
+  }
+]

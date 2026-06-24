@@ -1,0 +1,80 @@
+[
+  {
+    "id": "healthcare-content-writer",
+    "title": "Healthcare Content Writer",
+    "department": "Editorial and Content",
+    "location": "India / Remote",
+    "description": "Research and write parent-friendly, evidence-based educational articles, guides, and materials focusing on premature baby care and neonatal health.",
+    "requirements": [
+      "Degree in Journalism, Communications, Public Health, or a related field",
+      "Two or more years of experience writing health or medical educational content",
+      "Ability to translate complex clinical terms into warm, supportive, simple language",
+      "Familiarity with medical disclaimers and responsible content guidelines"
+    ]
+  },
+  {
+    "id": "digital-health-research-assistant",
+    "title": "Digital Health Research Assistant",
+    "department": "Research and Education",
+    "location": "India / Remote",
+    "description": "Gather, review, and organize clinical guidelines from established neonatal pediatric organizations to support the editorial team with accurate data.",
+    "requirements": [
+      "Background in Nursing, Life Sciences, Public Health, or Neonatal Health advocacy",
+      "Strong research skills and ability to analyze peer-reviewed medical publications",
+      "Detail-oriented with a high commitment to medical accuracy and verification",
+      "Excellent written communication and reference organization skills"
+    ]
+  },
+  {
+    "id": "parent-support-coordinator",
+    "title": "Parent Support Coordinator",
+    "department": "Community and Education Support",
+    "location": "India / Remote",
+    "description": "Organize virtual parent educational webinars, manage community support resources, and coordinate parent story submissions.",
+    "requirements": [
+      "Experience in counseling, parent support groups, or community management",
+      "Warm, empathetic, and professional communication style",
+      "Ability to organize and moderate online webinars and Q&A sessions safely",
+      "Understanding of parent support frameworks and boundaries of non-clinical guidance"
+    ]
+  },
+  {
+    "id": "seo-content-executive",
+    "title": "SEO Content Executive",
+    "department": "Growth and Digital Strategy",
+    "location": "India / Remote",
+    "description": "Optimize our digital health articles to rank on search engines for premature baby care topics in India, ensuring educational content reaches families.",
+    "requirements": [
+      "Experience in SEO strategies specifically for health information domains",
+      "Knowledge of search engine guidelines for medical and health education platforms",
+      "Familiarity with keyword optimization, semantic structure, and metadata writing",
+      "Proven track record of improving organic visibility for informational keywords"
+    ]
+  },
+  {
+    "id": "frontend-developer",
+    "title": "Frontend Developer",
+    "department": "Engineering",
+    "location": "India / Remote",
+    "description": "Build and maintain the responsive educational web platform, optimizing for performance, accessibility, and high static rendering speeds.",
+    "requirements": [
+      "Strong experience with Next.js, React, Tailwind CSS, and static exports",
+      "Familiarity with web performance, semantic HTML, and core web vitals",
+      "Experience implementing web animations (Framer Motion, Canvas API) smoothly",
+      "Knowledge of accessible web design practices (WCAG guidelines)"
+    ]
+  },
+  {
+    "id": "ui-ux-designer",
+    "title": "UI/UX Designer",
+    "department": "Product Design",
+    "location": "India / Remote",
+    "description": "Design warm, comforting, and intuitive user interfaces that make seeking healthcare information stress-free for anxious parents.",
+    "requirements": [
+      "Portfolio demonstrating premium, clean, accessible digital product designs",
+      "Understanding of design systems, warm color palettes, and emotional UI principles",
+      "Experience designing complex data-visualization tools like growth trackers",
+      "Collaboration skills to work with developers on styling and animations"
+    ]
+  }
+]

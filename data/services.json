@@ -1,0 +1,206 @@
+[
+  {
+    "slug": "premature-baby-care-guidance",
+    "title": "Premature Baby Care Guidance",
+    "icon": "Baby",
+    "shortDescription": "General home-care adaptations, environmental adjustments, warmth preservation, and infant comfort education for premature infants.",
+    "whoFor": "Parents and family caregivers preparing to transition a preterm infant from the neonatal unit to home.",
+    "learningAreas": [
+      "Understanding safe ambient room temperatures for premature infants",
+      "Adapting the home sleeping environment according to safety guidelines",
+      "Thermal regulation and the importance of layer clothing",
+      "Standard hygiene and infection prevention protocols for home visitors",
+      "Monitoring sleep patterns and responsive comforting techniques",
+      "Identifying general signs of well-being and comforting rhythms"
+    ],
+    "guidanceText": "Preterm infants require specific adjustments at home to support their continued development. Creating a low-stress, quiet, and warm atmosphere is essential. Maintain ambient temperatures between twenty-two and twenty-four degrees Celsius, minimize bright lights, and keep noise levels low. Hygiene is critical, as their immune systems are still developing. Wash hands thoroughly before handling the baby and limit guests in the early weeks.",
+    "whenDoctor": "Always contact your pediatrician or neonatologist if the infant shows signs of persistent crying, lethargy, poor feeding, abnormal breathing patterns, or temperature fluctuations outside the recommended range."
+  },
+  {
+    "slug": "neonatal-health-education",
+    "title": "Neonatal Health Education",
+    "icon": "Activity",
+    "shortDescription": "Fundamental physiological awareness of premature baby development, body systems, and neonatal unit concepts.",
+    "whoFor": "Families seeking to understand the unique biological needs and developmental phases of preterm infants.",
+    "learningAreas": [
+      "Basic development of the premature infant respiratory system",
+      "Immune system vulnerabilities in premature babies",
+      "How sensory systems process external inputs in early weeks",
+      "The role of the gastrointestinal system in nutrient absorption",
+      "Understanding neonatal jaundice and common non-clinical observations",
+      "Safe neurological stimulation and sleep cycle preservation"
+    ],
+    "guidanceText": "Neonatal health education focuses on explaining the anatomical and physiological differences of preterm babies in simple terms. Because premature babies are born before their systems are fully developed, they experience and interact with the world differently than full-term babies. For example, their skin is thinner, their lungs are still maturing, and their brains are highly sensitive to loud noises and bright lights. Understanding these factors helps families provide gentle, protective care.",
+    "whenDoctor": "Seek immediate advice from a qualified medical professional if you observe skin discoloration, signs of respiratory distress, sluggish reflexes, or any behavior that appears unusual compared to the daily baseline."
+  },
+  {
+    "slug": "parent-support-programs",
+    "title": "Parent Support Programs",
+    "icon": "Heart",
+    "shortDescription": "Educational support groups and emotional coping strategies for parents navigating the challenges of preterm birth.",
+    "whoFor": "Mothers, fathers, and immediate family members feeling overwhelmed by the NICU journey or home care requirements.",
+    "learningAreas": [
+      "Coping strategies for managing anxiety and stress related to prematurity",
+      "Communication techniques with medical professionals and care teams",
+      "Involving family members in supportive, non-intrusive ways",
+      "Understanding and processing parent emotional transitions",
+      "Locating reliable peer education networks in India",
+      "Building parenting confidence through daily structured routines"
+    ],
+    "guidanceText": "Parent support programs emphasize emotional resilience and peer-to-peer education. Having a baby in the NICU or caring for a preterm infant at home can be emotionally taxing. It is common to experience worry, confusion, or exhaustion. Our resources help families manage stress through shared educational experiences, structured coping strategies, and guides for clear communication with clinical staff. Taking care of your own well-being is vital for supporting your baby.",
+    "whenDoctor": "Consult a qualified mental health professional or general physician if you or a family member experiences persistent sadness, severe anxiety, insomnia, or inability to cope with daily caregiving activities."
+  },
+  {
+    "slug": "nicu-journey-support",
+    "title": "NICU Journey Support",
+    "icon": "ShieldAlert",
+    "shortDescription": "Navigating the Neonatal Intensive Care Unit, understanding medical equipment, terms, and daily team interactions.",
+    "whoFor": "Parents whose preterm babies are currently admitted or transitioning through a Neonatal Intensive Care Unit.",
+    "learningAreas": [
+      "Explaining standard NICU equipment like incubators and monitors",
+      "Understanding common terms used by neonatologists and pediatricians",
+      "Daily communication with the neonatal nursing staff",
+      "Participating safely in care activities within the hospital unit",
+      "Preparing emotionally and logistically for the discharge process",
+      "Understanding the role of medical charts and daily rounds"
+    ],
+    "guidanceText": "The Neonatal Intensive Care Unit can feel overwhelming due to unfamiliar equipment, alarms, and procedures. This resource helps clarify what to expect. Monitors measure heart rate, breathing, and oxygen saturation, while incubators provide warmth and humidity. Understanding these tools helps reduce anxiety. Parents are encouraged to collaborate with the nursing staff, ask questions during rounds, and participate in gentle care activities as approved by the clinical team.",
+    "whenDoctor": "Speak directly with the attending neonatologist or pediatric staff at your hospital for any questions regarding diagnostic results, treatment plans, or clinical procedures."
+  },
+  {
+    "slug": "growth-development-tracking",
+    "title": "Growth and Development Tracking",
+    "icon": "TrendingUp",
+    "shortDescription": "Education on monitoring growth milestones, physical changes, and understanding the concept of corrected age.",
+    "whoFor": "Parents seeking to understand how preterm infants grow and hit developmental markers over time.",
+    "learningAreas": [
+      "Calculating corrected age for developmental milestones",
+      "Understanding preterm growth charts and weight progression trends",
+      "Recognizing subtle motor development and sensory indicators",
+      "Tracking developmental milestones using custom visual checkers",
+      "Documenting developmental progress to share with pediatricians",
+      "Differentiating standard developmental timelines from corrected timelines"
+    ],
+    "guidanceText": "Preterm growth and milestone tracking must always be adjusted for gestational age, using the concept of corrected age. Corrected age calculates developmental expectations based on the baby's original due date rather than the actual birth date. This is crucial for avoiding unnecessary anxiety about missed milestones. Preterm growth follows its own trajectory, and consistency of progress on a customized growth chart is more important than absolute numbers.",
+    "whenDoctor": "Consult your pediatrician if your infant shows a persistent lack of weight gain, does not respond to sudden sounds, fails to track objects visually by their corrected age, or shows significant asymmetrical movement."
+  },
+  {
+    "slug": "feeding-nutrition-guidance",
+    "title": "Feeding and Nutrition Guidance",
+    "icon": "Droplet",
+    "shortDescription": "Information regarding feeding methods, lactation support, nutritional requirements, and feeding transitions.",
+    "whoFor": "Parents navigating the complexities of feeding a premature infant, including transition to oral feeding.",
+    "learningAreas": [
+      "Understanding the unique nutritional needs of premature infants",
+      "Lactation support concepts and milk expression guidance",
+      "Transitioning from tube feeding to oral feeding modes",
+      "Recognizing early hunger cues and satiety indicators",
+      "Safe storage and handling guidelines for expressed breast milk",
+      "Understanding the role of human milk fortifiers under clinical advice"
+    ],
+    "guidanceText": "Feeding a premature baby requires patience and close adherence to professional clinical plans. Preterm babies have higher energy and nutrient requirements but immature sucking and swallowing reflexes. Initially, they may receive nutrition through tubes, transitioning gradually to breast or bottle feeding. Responsive feeding helps recognize when the baby is ready. Always follow the specific volume and schedule prescribed by your neonatologist or lactation consultant.",
+    "whenDoctor": "Seek immediate advice from your pediatrician if the baby experiences frequent vomiting, abdominal distension, refusal to feed for multiple sessions, or shows signs of dehydration such as fewer wet diapers."
+  },
+  {
+    "slug": "respiratory-health-awareness",
+    "title": "Respiratory Health Awareness",
+    "icon": "Wind",
+    "shortDescription": "General information about preterm lung development, respiratory support tools, and home respiratory safety precautions.",
+    "whoFor": "Caregivers wanting to understand respiratory patterns and protect their preterm baby's lungs at home.",
+    "learningAreas": [
+      "Basic concepts of neonatal respiratory distress and recovery",
+      "Understanding home environmental triggers for breathing difficulties",
+      "Maintaining clean indoor air quality and avoiding smoke exposure",
+      "Observing normal preterm respiratory rates versus rapid breathing",
+      "Proper positioning techniques to support clear breathing passages",
+      "Understanding transition off respiratory support systems"
+    ],
+    "guidanceText": "Because a premature baby's lungs are among the last organs to mature, respiratory health is a primary area of focus during early development. Environmental hygiene plays a crucial role once the infant is discharged. Ensure the home is free from tobacco smoke, aerosols, strong perfumes, and excessive dust. Clean air filters regularly and position the infant on their back for sleep on a firm, flat surface to support open airways.",
+    "whenDoctor": "Contact emergency medical services or your neonatologist immediately if your baby exhibits rapid breathing, nostril flaring, chest retractions, grunting sounds during breathing, or blue discoloration around the lips."
+  },
+  {
+    "slug": "kangaroo-care-education",
+    "title": "Kangaroo Care Education",
+    "icon": "Accessibility",
+    "shortDescription": "Skin-to-skin contact guidelines, physiological benefits, and step-by-step techniques for safe practice.",
+    "whoFor": "Mothers and fathers interested in practicing kangaroo care in the hospital or home environment.",
+    "learningAreas": [
+      "Understanding the physiological benefits of skin-to-skin warmth",
+      "Correct positioning for the baby during Kangaroo Mother Care",
+      "Monitoring the baby's breathing and temperature during contact",
+      "Establishing bonding and calming sensory connections",
+      "Involving fathers and partners in safe skin-to-skin practice",
+      "Determining the duration and frequency of sessions under hospital advice"
+    ],
+    "guidanceText": "Kangaroo Care, or skin-to-skin contact, involves holding your diaper-clad premature baby upright against your bare chest. This practice helps stabilize the baby's heart rate, breathing, and body temperature. It also encourages breastfeeding and promotes deeper sleep. Kangaroo care should be practiced in a relaxed state, ensuring the baby's head is turned to one side with the airway completely clear and unobstructed at all times.",
+    "whenDoctor": "Stop kangaroo care and inform clinical staff or consult your pediatrician if the baby appears restless, shows changes in skin color, has breathing difficulties, or if their temperature fluctuates."
+  },
+  {
+    "slug": "post-discharge-care-support",
+    "title": "Post-Discharge Care Support",
+    "icon": "Home",
+    "shortDescription": "Structuring the transition from hospital to home, planning follow-up visits, and adjusting routines.",
+    "whoFor": "Families experiencing the critical first few weeks after NICU discharge.",
+    "learningAreas": [
+      "Creating a structured schedule for pediatric follow-up appointments",
+      "Setting up a hygienic home environment and sanitation station",
+      "Managing visitor access to protect infant health in the early months",
+      "Creating a daily log for feeds, wet diapers, and sleep schedules",
+      "Transitioning from hospital routines to responsive home parenting",
+      "Recognizing emergency warning signs versus standard infant fussiness"
+    ],
+    "guidanceText": "NICU discharge is a major milestone, but transitioning home requires preparation. Setting up a predictable schedule for feeding, monitoring, and sleep is helpful. Keep visitor numbers minimal to reduce infection risk, and require everyone to wash hands. Maintain a daily log tracking the number of wet and dirty diapers, feeding times, and general observations to share with your pediatrician during follow-up visits.",
+    "whenDoctor": "Immediately contact your pediatrician or seek emergency services if the infant has a fever, shows persistent vomiting, has fewer than six wet diapers in twenty-four hours, or is unusually difficult to wake."
+  },
+  {
+    "slug": "telehealth-consultation-support",
+    "title": "Telehealth Consultation Support",
+    "icon": "Tv",
+    "shortDescription": "Preparing for online pediatric visits, documenting symptoms, and organizing virtual digital health consultations.",
+    "whoFor": "Families seeking to maximize the efficiency of virtual check-ins with their pediatricians.",
+    "learningAreas": [
+      "Preparing structured logs of feeding and weight patterns",
+      "Taking clear photos or video clips of non-emergency symptoms safely",
+      "Formulating precise questions about development and nutrition",
+      "Setting up standard lighting and connection for digital visits",
+      "Understanding the boundaries and limitations of virtual healthcare",
+      "Organizing prescriptions and follow-up directives digitally"
+    ],
+    "guidanceText": "Telehealth is a convenient way to consult pediatricians for routine advice, development updates, and content reviews. To make the most of a virtual visit, prepare in advance. Have your baby's current weight, temperature, diaper count, and feeding logs ready. Write down your questions beforehand. Ensure you are in a quiet, well-lit room so the pediatrician can see the baby clearly if needed.",
+    "whenDoctor": "Telehealth is not for emergencies. In emergency situations, bypass virtual consultations and take your baby to the nearest emergency hospital immediately."
+  },
+  {
+    "slug": "digital-health-resources",
+    "title": "Digital Health Resources",
+    "icon": "FileText",
+    "shortDescription": "Accessing digital tracking tools, growth calculators, educational PDF materials, and reliable neonatal databases.",
+    "whoFor": "Caregivers and parents looking for evidence-based digital checklists and guides for premature baby care.",
+    "learningAreas": [
+      "Navigating trusted neonatal health resources in India",
+      "Downloading and printing questions for developmental checklists",
+      "Accessing educational videos on safe holding and kangaroo care",
+      "Using simple web trackers for feeding and sleep observation logs",
+      "Distinguishing verified healthcare information from unverified online claims",
+      "Sharing organized digital health summaries with your pediatrician"
+    ],
+    "guidanceText": "Having access to reliable, structured digital resources helps parents make informed decisions. Prematurite Digital Health offers downloadable files, milestone tracking logs, and lists of questions to guide discussions with your care team. Utilizing these resources organizes details clearly, allowing you to participate actively in your baby's developmental journey.",
+    "whenDoctor": "Never rely solely on digital checklists or online resources to make clinical decisions. Consult your pediatrician before making any changes to your infant's care plan."
+  },
+  {
+    "slug": "family-education-caregiver-awareness",
+    "title": "Family Education & Caregiver Awareness",
+    "icon": "Users",
+    "shortDescription": "Educating grandparents, siblings, and domestic caregivers about the specialized care needs of preterm infants.",
+    "whoFor": "Extended family systems and support networks sharing caregiving responsibilities at home.",
+    "learningAreas": [
+      "Explaining the unique immune vulnerability of premature babies to family",
+      "Training caregivers on proper hand hygiene and sanitation procedures",
+      "Teaching safe holding techniques and developmental positioning",
+      "Aligning expectations on nursery temperature and quiet hours",
+      "Creating supportive roles for siblings and extended family",
+      "Establishing clear protocols for who to call in emergency situations"
+    ],
+    "guidanceText": "Caring for a premature infant is a family effort. It is essential that all household members and caregivers understand the specific precautions required. Grandparents, helpers, and older siblings should be educated on why visitors are restricted, the importance of frequent handwashing, and the need for a calm environment. Aligning caregiving practices ensures consistency and protects the baby's health.",
+    "whenDoctor": "If any family member or caregiver notices warning signs such as erratic breathing, pale skin, extreme listlessness, or feeding refusal, they should inform the parents and seek pediatric advice immediately."
+  }
+]
