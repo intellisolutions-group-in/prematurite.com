@@ -111,7 +111,86 @@ export default function WhatIsPrematurity() {
         </div>
       </section>
 
-      {/* 4. INTERNAL LINKS GRID */}
+      {/* 4. MYTHS VS FACTS AND MATHEMATICAL MATRIX (NEW CONTENT) */}
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <ScrollReveal direction="right" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Myths vs. Facts of Preterm Birth
+          </h3>
+          <div className="space-y-4">
+            <div className="border-b border-brand-coral/10 pb-3">
+              <span className="text-xs font-sans font-bold uppercase text-red-500 block mb-1">Myth:</span>
+              <p className="text-brand-deep text-sm font-semibold mb-1">Premature birth is always caused by parental activity or stress.</p>
+              <span className="text-xs font-sans font-bold uppercase text-green-600 block mb-1">Fact:</span>
+              <p className="text-brand-brown text-xs md:text-sm">In many cases, preterm labor occurs spontaneously due to medical, biological, or genetic factors beyond anyone's control. Empathy and self-care are essential for healing.</p>
+            </div>
+            <div className="border-b border-brand-coral/10 pb-3">
+              <span className="text-xs font-sans font-bold uppercase text-red-500 block mb-1">Myth:</span>
+              <p className="text-brand-deep text-sm font-semibold mb-1">Preterm infants will remain permanently behind full-term peers.</p>
+              <span className="text-xs font-sans font-bold uppercase text-green-600 block mb-1">Fact:</span>
+              <p className="text-brand-brown text-xs md:text-sm">Most premature infants experience catch-up growth and reach typical developmental baselines by the age of two to two and a half years old.</p>
+            </div>
+            <div>
+              <span className="text-xs font-sans font-bold uppercase text-red-500 block mb-1">Myth:</span>
+              <p className="text-brand-deep text-sm font-semibold mb-1">All premature babies have the exact same care needs.</p>
+              <span className="text-xs font-sans font-bold uppercase text-green-600 block mb-1">Fact:</span>
+              <p className="text-brand-brown text-xs md:text-sm">Development and clinical needs depend heavily on the gestational classification (e.g. late preterm versus extremely preterm) and individual health status.</p>
+            </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal direction="left" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Corrected Age Calculation Matrix
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Here is a practical reference matrix showing how corrected age is calculated for infants born at different weeks:
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-xs md:text-sm">
+              <thead>
+                <tr className="border-b border-brand-coral/20 text-brand-deep font-bold">
+                  <th className="py-2">Birth Gestation</th>
+                  <th className="py-2">Weeks Early</th>
+                  <th className="py-2">At 6 Months Chronological</th>
+                  <th className="py-2">At 12 Months Chronological</th>
+                </tr>
+              </thead>
+              <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">32 Weeks</td>
+                  <td className="py-2">8 Weeks (2m)</td>
+                  <td className="py-2">4 Months Corrected</td>
+                  <td className="py-2">10 Months Corrected</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">28 Weeks</td>
+                  <td className="py-2">12 Weeks (3m)</td>
+                  <td className="py-2">3 Months Corrected</td>
+                  <td className="py-2">9 Months Corrected</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">34 Weeks</td>
+                  <td className="py-2">6 Weeks (1.5m)</td>
+                  <td className="py-2">4.5 Months Corrected</td>
+                  <td className="py-2">10.5 Months Corrected</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">36 Weeks</td>
+                  <td className="py-2">4 Weeks (1m)</td>
+                  <td className="py-2">5 Months Corrected</td>
+                  <td className="py-2">11 Months Corrected</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-[10px] text-brand-brown/70 leading-relaxed italic">
+            Note: Standardize all math projections with your pediatrician during milestone updates.
+          </p>
+        </ScrollReveal>
+      </section>
+
+      {/* 5. INTERNAL LINKS GRID */}
       <section className="space-y-8">
         <ScrollReveal direction="up">
           <SectionHeading
@@ -155,9 +234,9 @@ export default function WhatIsPrematurity() {
         </div>
       </section>
 
-      {/* 5. DISCLAIMER & CALL TO ACTION */}
+      {/* 6. DISCLAIMER & CALL TO ACTION */}
       <section className="space-y-6">
-        <ScrollReveal direction="up" className="max-w-3xl mx-auto space-y-6">
+        <ScrollReveal direction="up" className="max-w-3xl mx-auto space-y-6 text-center">
           <DisclaimerBox />
           <div className="text-center pt-4">
             <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl mb-4">

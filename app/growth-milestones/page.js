@@ -107,7 +107,53 @@ export default function GrowthMilestonesPage() {
         </div>
       </section>
 
-      {/* 4. DISCLAIMER & ACTION */}
+      {/* 4. NEW CONTENT: PERCENTILE DETAILS & CATCH-UP TIMELINES */}
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <ScrollReveal direction="right" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Preterm Percentile Charts Guide
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Standard pediatric growth charts evaluate infants based on term milestones. For premature babies, clinics use specialized tracking indicators:
+          </p>
+          <ul className="space-y-3">
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block">WHO vs. Fenton Charts:</strong> The WHO growth chart tracks infant development from term (40 weeks) onwards. For babies born extremely or very early, pediatricians use the Fenton growth chart, which starts plotting from 22 weeks gestation.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block">Focusing on Curve Consistency:</strong> It is common for preterm babies to fall below the 10th percentile on standard WHO charts. The primary goal is that they maintain a steady, parallel upward trend on their own personal Fenton curve.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm">
+              <strong className="text-brand-deep block">Adjusting for Gestational Shifts:</strong> Always recalculate corrected milestones before reviewing physical size percentiles, ensuring your observations reflect the baby's actual physiological age.
+            </li>
+          </ul>
+        </ScrollReveal>
+
+        <ScrollReveal direction="left" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Expected Catch-up Growth Timeline
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Preterm growth gaps close gradually. Learn what to expect across different developmental stages:
+          </p>
+          <div className="space-y-4">
+            <div className="border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep text-sm block">0 to 6 Months Corrected:</strong>
+              <p className="text-brand-brown text-xs">Primary metabolic energy is spent stabilizing breathing and temperature. Weight gain may be gradual, but head circumference should show steady growth.</p>
+            </div>
+            <div className="border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep text-sm block">6 to 12 Months Corrected:</strong>
+              <p className="text-brand-brown text-xs">Sucking reflexes and digestive capacity mature, accelerating weight gain. Motor skills like rolling and grasping align closely with adjusted timelines.</p>
+            </div>
+            <div>
+              <strong className="text-brand-deep text-sm block">12 to 24 Months Corrected:</strong>
+              <p className="text-brand-brown text-xs">Catch-up growth typically accelerates. By the age of two, most preterm babies reach standard physical stature and milestone lines matching chronological age.</p>
+            </div>
+          </div>
+        </ScrollReveal>
+      </section>
+
+      {/* 5. DISCLAIMER & ACTION */}
       <section className="space-y-6">
         <ScrollReveal direction="up" className="max-w-3xl mx-auto space-y-6 text-center">
           <DisclaimerBox />

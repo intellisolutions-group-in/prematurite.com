@@ -124,6 +124,69 @@ export default function NICUJourneyPage() {
         </div>
       </section>
 
+      {/* 4. NEW CONTENT: NICU ALARM DICTIONARY & TEAM MATRIX */}
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <ScrollReveal direction="right" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            NICU Monitor Alarm Dictionary
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Monitor alarms are highly sensitive. Understanding standard alert tones helps reduce parent stress:
+          </p>
+          <div className="space-y-4">
+            <div className="border-b border-brand-coral/10 pb-2.5">
+              <strong className="text-brand-deep text-sm block">Apnea Warning:</strong>
+              <p className="text-brand-brown text-xs">Triggers when the monitor detects a breathing pause lasting longer than fifteen to twenty seconds. Nurses check if this is a shallow breath or requires a gentle tactile stimulation.</p>
+            </div>
+            <div className="border-b border-brand-coral/10 pb-2.5">
+              <strong className="text-brand-deep text-sm block">Bradycardia Alert (Brady):</strong>
+              <p className="text-brand-brown text-xs">Triggers if the infant's heart rate drops below the target range. In preterm infants, heart rates drop temporarily during feeding or deep sleep, usually recovering spontaneously.</p>
+            </div>
+            <div>
+              <strong className="text-brand-deep text-sm block">Desaturation Alert (Desat):</strong>
+              <p className="text-brand-brown text-xs">Triggers when blood oxygen saturation levels drop below the target percentage set by your neonatologist. Sensors shifting or loose tape often cause mock alerts.</p>
+            </div>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal direction="left" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Neonatal Care Team Matrix
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Understanding who comprises the hospital care team helps you direct your questions correctly:
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-xs md:text-sm">
+              <thead>
+                <tr className="border-b border-brand-coral/20 text-brand-deep font-bold">
+                  <th className="py-2">Role</th>
+                  <th className="py-2">Responsibilities</th>
+                </tr>
+              </thead>
+              <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Neonatologist</td>
+                  <td className="py-2">A pediatrician with specialized training leading the infant's overall clinical diagnostics and medical plans.</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">NICU Staff Nurse</td>
+                  <td className="py-2">Handles direct hourly bedside observations, feeds, hygiene updates, and coordinates parent touch activities.</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Lactation Consultant</td>
+                  <td className="py-2">Assists mothers with early breast milk expression, pumping schedules, and future tube-to-oral feeding paths.</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Respiratory Therapist</td>
+                  <td className="py-2">Manages the ventilators, CPAP devices, nasal oxygen cannulas, and monitors respiratory lung development values.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </ScrollReveal>
+      </section>
+
       {/* 5. DISCLAIMER & QUESTIONS */}
       <section className="space-y-6">
         <ScrollReveal direction="up" className="max-w-3xl mx-auto space-y-6 text-center">

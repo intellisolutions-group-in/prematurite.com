@@ -107,7 +107,53 @@ export default function KangarooCarePage() {
         </div>
       </section>
 
-      {/* 4. HOSPITAL & SAFETY ADVICE */}
+      {/* 4. NEW CONTENT: PATERNAL POSITIONING & SESSION LOGS */}
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <ScrollReveal direction="right" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Paternal Kangaroo Care Positioning Guide
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Fathers can establish the same skin-to-skin connection. Follow these tailored adjustment tips:
+          </p>
+          <ul className="space-y-3">
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block font-display">Acoustic Comfort:</strong> Preterm infants are comforted by the lower pitch of paternal vocal tones. Speaking or humming softly during KMC can lower baby heart rate.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block font-display">Adjusting Chest contact:</strong> Ensure the father\'s chest hair does not irritate the baby\'s sensitive skin. Placing a soft, clean cotton barrier can help if needed, but direct skin-to-skin contact is preferred.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm">
+              <strong className="text-brand-deep block font-display">Thermal Monitoring:</strong> Male core chest temperatures can run slightly higher. Check if the baby shows signs of overheating (e.g. flushing or damp hair) and adjust wraps accordingly.
+            </li>
+          </ul>
+        </ScrollReveal>
+
+        <ScrollReveal direction="left" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Daily KMC Session Duration Guide
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Building KMC into your daily routine requires structure. Note these timing parameters:
+          </p>
+          <div className="space-y-4">
+            <div className="border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep text-sm block">Minimum Session Length (60 Minutes):</strong>
+              <p className="text-brand-brown text-xs">Sessions should last at least one hour continuously. Preterm infants spend significant energy adjusting to transfers; longer sessions allow them to settle into deep sleep.</p>
+            </div>
+            <div className="border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep text-sm block">Target Daily Duration (4 to 8 Hours):</strong>
+              <p className="text-brand-brown text-xs">While even short sessions help, clinical benefits (weight gain, stability) scale when parents cumulative KMC practice reaches multiple hours daily.</p>
+            </div>
+            <div>
+              <strong className="text-brand-deep text-sm block">Home Transition KMC:</strong>
+              <p className="text-brand-brown text-xs">Continue KMC at home after discharge until your baby shows signs of outgrowing it (e.g., squirming or resisting direct skin contact), usually around 40-42 weeks corrected age.</p>
+            </div>
+          </div>
+        </ScrollReveal>
+      </section>
+
+      {/* 5. HOSPITAL & SAFETY ADVICE */}
       <section className="space-y-6">
         <ScrollReveal direction="up" className="max-w-3xl mx-auto space-y-6 text-center">
           <DisclaimerBox />

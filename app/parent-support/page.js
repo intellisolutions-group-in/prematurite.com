@@ -93,7 +93,56 @@ export default function ParentSupportPage() {
         </div>
       </section>
 
-      {/* 4. ACTIONS & CTAS */}
+      {/* 4. NEW CONTENT: BURNOUT CHECKS & SHIFT ROUTINES */}
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <ScrollReveal direction="right" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Caregiver Burnout Self-Assessment
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Parenting in early weeks is demanding. Review these psychological warning indicators of caregiver fatigue:
+          </p>
+          <ul className="space-y-3">
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block font-display">Persistent Hypervigilance:</strong> Inability to sleep even when the infant is resting quietly, caused by constant checking of breathing or monitors.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block font-display">Emotional Withdrawal:</strong> Feeling disconnected, numb, or experiencing severe guilt regarding your caregiving capacity.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm">
+              <strong className="text-brand-deep block font-display">Physical Exhaustion:</strong> Headaches, brain fog, or persistent muscle tension that interferes with safe caregiving tasks.
+            </li>
+          </ul>
+          <p className="text-[10px] text-brand-brown/70 leading-relaxed italic">
+            Tip: Acknowledge these signs without guilt. Stepping away for brief rests supports your baby\'s well-being.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal direction="left" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Partner Night Shift Framework
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Organizing sleep shifts between partners reduces exhaustion. Implement this standard shift split:
+          </p>
+          <div className="space-y-4">
+            <div className="border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep text-sm block">First Shift (09:00 PM to 02:00 AM):</strong>
+              <p className="text-brand-brown text-xs">One partner manages all feeding logs, diaper changes, and comforting. The other partner sleeps in a separate quiet room to get uninterrupted rest.</p>
+            </div>
+            <div className="border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep text-sm block">Second Shift (02:00 AM to 07:00 AM):</strong>
+              <p className="text-brand-brown text-xs">Partners swap roles. The rested partner takes over bedside logs and feeds, allowing the other to get consecutive hours of sleep.</p>
+            </div>
+            <div>
+              <strong className="text-brand-deep text-sm block">Supportive Handover:</strong>
+              <p className="text-brand-brown text-xs">Spend five minutes during transitions to review the written feed volume and wet diaper log, ensuring continuity without stress.</p>
+            </div>
+          </div>
+        </ScrollReveal>
+      </section>
+
+      {/* 5. ACTIONS & CTAS */}
       <section className="space-y-6 text-center max-w-3xl mx-auto">
         <ScrollReveal direction="up" className="space-y-6">
           <h2 className="text-2xl font-display font-extrabold text-brand-deep">

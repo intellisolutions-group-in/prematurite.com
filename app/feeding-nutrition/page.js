@@ -100,7 +100,75 @@ export default function FeedingNutritionPage() {
         </div>
       </section>
 
-      {/* 4. CLINICAL CALLOUT & DISCLAIMER */}
+      {/* 4. NEW CONTENT: MILK COMPARISON & TRANSITION TIMELINES */}
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <ScrollReveal direction="right" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Preterm Breast Milk vs. Term Breast Milk
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            The biological composition of breast milk adapts if an infant is born early, providing targeted resources:
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-xs md:text-sm">
+              <thead>
+                <tr className="border-b border-brand-coral/20 text-brand-deep font-bold">
+                  <th className="py-2">Nutrient Component</th>
+                  <th className="py-2">Preterm Breast Milk</th>
+                  <th className="py-2">Full-Term Breast Milk</th>
+                </tr>
+              </thead>
+              <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Protein Content</td>
+                  <td className="py-2">Higher (Supports tissue & muscle building)</td>
+                  <td className="py-2">Standard base levels</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Sodium & Chloride</td>
+                  <td className="py-2">Elevated (Matches early renal demands)</td>
+                  <td className="py-2">Gradually declines</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Immunoglobulins (IgA)</td>
+                  <td className="py-2">Highly concentrated (Protects fragile gut)</td>
+                  <td className="py-2">Standard protection levels</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Digestive Lipase</td>
+                  <td className="py-2">Active (Simplifies absorption of fats)</td>
+                  <td className="py-2">Requires fully mature gut enzymes</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal direction="left" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Feeding Transition Stages
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Preterm infants transition through distinct feeding phases as their neurological coordination matures:
+          </p>
+          <div className="space-y-4">
+            <div className="border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep text-sm block">Stage 1: Intravenous Support (Parenteral)</strong>
+              <p className="text-brand-brown text-xs">Used when the infant is medically unstable or the gut cannot digest milk. Delivers glucose, lipids, and amino acids through simple catheters.</p>
+            </div>
+            <div className="border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep text-sm block">Stage 2: Gavage Tube Feeding (Naso/Orogastric)</strong>
+              <p className="text-brand-brown text-xs">A small tube delivers breast milk directly to the stomach. Allows the baby to receive nutrition without burning energy on sucking and breathing.</p>
+            </div>
+            <div>
+              <strong className="text-brand-deep text-sm block">Stage 3: Sucking trials (Cup, Bottle, or Breast)</strong>
+              <p className="text-brand-brown text-xs">Begins between 32 and 34 weeks gestation. Sucking, swallowing, and breathing coordination is practiced under pediatrician guidance.</p>
+            </div>
+          </div>
+        </ScrollReveal>
+      </section>
+
+      {/* 5. CLINICAL CALLOUT & DISCLAIMER */}
       <section className="space-y-6">
         <ScrollReveal direction="up" className="max-w-3xl mx-auto space-y-6 text-center">
           <DisclaimerBox />

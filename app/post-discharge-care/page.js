@@ -106,7 +106,53 @@ export default function PostDischargeCarePage() {
         </div>
       </section>
 
-      {/* 4. EMERGENCY WARNINGS & CTAS */}
+      {/* 4. NEW CONTENT: SANITATION CODE & VISITOR SCREENINGS */}
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <ScrollReveal direction="right" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Home Sanitation Code of Conduct
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Maintaining room hygiene minimizes exposure risks during early infancy:
+          </p>
+          <ul className="space-y-3">
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block font-display">Primary Caregiver Attire:</strong> Keep dedicated indoor clothes for nursing. Change out of outdoor clothes immediately when returning from visits.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block font-display">Toy and Fabric Hygiene:</strong> Wash infant bedding, clothes, and wraps in mild, fragrance-free detergents at sixty degrees Celsius. Avoid soft fabrics that gather dust in the nursery.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm">
+              <strong className="text-brand-deep block font-display">Device Sanitization:</strong> Frequently clean keys, phones, and handles with sanitizer wipes, as these items collect surface bacteria daily.
+            </li>
+          </ul>
+        </ScrollReveal>
+
+        <ScrollReveal direction="left" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Visitor Screening Checklist
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Parents should screen anyone entering the household. Ask these screening questions:
+          </p>
+          <div className="space-y-4">
+            <div className="border-b border-brand-coral/10 pb-2.5">
+              <strong className="text-brand-deep text-sm block">1. Do you have any active symptoms?</strong>
+              <p className="text-brand-brown text-xs">Verify the absence of coughing, sneezing, sore throat, fever, runny nose, or digestive issues during the past forty-eight hours.</p>
+            </div>
+            <div className="border-b border-brand-coral/10 pb-2.5">
+              <strong className="text-brand-deep text-sm block">2. Have you had recent exposure?</strong>
+              <p className="text-brand-brown text-xs">Confirm the visitor has not been in close contact with anyone diagnosed with contagious viral respiratory conditions (e.g. RSV, influenza).</p>
+            </div>
+            <div>
+              <strong className="text-brand-deep text-sm block">3. Hand Sanitation Agreement</strong>
+              <p className="text-brand-brown text-xs">Require visitors to wash hands from fingertips to elbows with antiseptic soap before sitting near or interacting with the infant.</p>
+            </div>
+          </div>
+        </ScrollReveal>
+      </section>
+
+      {/* 5. EMERGENCY WARNINGS & CTAS */}
       <section className="space-y-6">
         <ScrollReveal direction="up" className="max-w-3xl mx-auto space-y-6 text-center">
           <DisclaimerBox />

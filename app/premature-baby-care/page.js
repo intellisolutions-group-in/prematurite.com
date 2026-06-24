@@ -104,7 +104,72 @@ export default function PrematureBabyCarePage() {
         </div>
       </section>
 
-      {/* 4. INTERNAL LINKS & CTAs */}
+      {/* 4. NEW CONTENT: AIR QUALITY & DIAPER OBSERVATION CHECKLISTS */}
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <ScrollReveal direction="right" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Nursery Air Quality & Safety Standards
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Preterm lungs are extremely sensitive to microscopic particles. Maintain these environmental parameters:
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-xs md:text-sm">
+              <thead>
+                <tr className="border-b border-brand-coral/20 text-brand-deep font-bold">
+                  <th className="py-2">Parameter</th>
+                  <th className="py-2">Standard Target</th>
+                  <th className="py-2">Actionable Care Guide</th>
+                </tr>
+              </thead>
+              <tbody className="text-brand-brown divide-y divide-brand-coral/10">
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Humidity</td>
+                  <td className="py-2">40% - 60%</td>
+                  <td className="py-2">Prevents airway drying; use a cool-mist humidifier in dry regions.</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Air Filtration</td>
+                  <td className="py-2">HEPA Grade</td>
+                  <td className="py-2">Keeps space free of fine dust particles and pollen. Clean filters monthly.</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Chemicals</td>
+                  <td className="py-2">Zero Residue</td>
+                  <td className="py-2">Do not spray bug repellents or aerosol perfumes in or near the room.</td>
+                </tr>
+                <tr>
+                  <td className="py-2 font-semibold text-brand-deep">Ventilation</td>
+                  <td className="py-2">Indirect Draft</td>
+                  <td className="py-2">Open windows slightly when ambient temperature permits, avoiding direct drafts.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal direction="left" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+          <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
+            Diaper Log & Hydration Checklist
+          </h3>
+          <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
+            Diaper counts are the best indicator of infant hydration. Observe these baseline checks:
+          </p>
+          <ul className="space-y-3">
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block">Wet Diapers (Minimum 6):</strong> A healthy preterm infant should wet at least six diapers in twenty-four hours. Diapers should feel heavy and contain pale or clear urine.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm border-b border-brand-coral/10 pb-2">
+              <strong className="text-brand-deep block">Stool Observations:</strong> Preterm stools shift gradually from dark green to soft mustard-yellow. Any black tarry stool (after early weeks), mucus, or red tint requires pediatric review.
+            </li>
+            <li className="text-brand-brown text-xs md:text-sm">
+              <strong className="text-brand-deep block">Urate Crystals Check:</strong> Reddish or brick-dust colored dust on diapers indicates urate crystals, which can be an early indicator of mild dehydration. Report this to your doctor immediately.
+            </li>
+          </ul>
+        </ScrollReveal>
+      </section>
+
+      {/* 5. INTERNAL LINKS & CTAs */}
       <section className="space-y-8 max-w-3xl mx-auto text-center">
         <ScrollReveal direction="up" className="space-y-6">
           <DisclaimerBox />
