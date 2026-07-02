@@ -10,7 +10,7 @@ import ScrollReveal from '@/components/animation/ScrollReveal';
 
 export default function WhatIsPrematurity() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 space-y-16 md:space-y-24" id="prematurity-page">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 space-y-16 md:space-y-24 overflow-x-hidden" id="prematurity-page">
       
       {/* 1. HERO SECTION */}
       <section className="text-center max-w-3xl mx-auto space-y-6">
@@ -78,8 +78,8 @@ export default function WhatIsPrematurity() {
           </ScrollReveal>
 
           <ScrollReveal direction="up" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border-collapse text-xs md:text-sm">
+            <div className="w-full overflow-x-auto rounded-xl">
+              <table className="w-full text-left border-collapse text-xs md:text-sm min-w-[500px]">
                 <thead>
                   <tr className="border-b border-brand-coral/20 text-brand-deep font-bold bg-brand-rose/20">
                     <th className="p-4 rounded-l-2xl">Classification</th>
@@ -137,7 +137,7 @@ export default function WhatIsPrematurity() {
             <p className="text-brand-brown text-sm md:text-base leading-relaxed">
               For example, if your baby is chronologically six months old but was born two months early, their corrected age is four months. You should expect them to hit physical and cognitive milestones—such as head control, rolling, or responsive smiling—closer to a typical four-month-old baseline.
             </p>
-            <div className="bg-brand-rose rounded-2xl p-4 border border-brand-coral/10 font-mono text-xs text-brand-deep">
+            <div className="bg-brand-rose rounded-2xl p-4 border border-brand-coral/10 font-mono text-xs text-brand-deep break-words">
               Corrected Age = Chronological Age (Weeks/Months since birth) - Weeks/Months Born Early
             </div>
           </ScrollReveal>
@@ -213,7 +213,7 @@ export default function WhatIsPrematurity() {
 
       {/* 4. MYTHS VS FACTS AND MATHEMATICAL MATRIX (NEW CONTENT) */}
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        <ScrollReveal direction="right" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+        <ScrollReveal direction="right" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6 min-w-0">
           <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
             Myths vs. Facts of Preterm Birth
           </h3>
@@ -239,15 +239,15 @@ export default function WhatIsPrematurity() {
           </div>
         </ScrollReveal>
 
-        <ScrollReveal direction="left" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+        <ScrollReveal direction="left" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6 min-w-0">
           <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
             Corrected Age Calculation Matrix
           </h3>
           <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
             Here is a practical reference matrix showing how corrected age is calculated for infants born at different weeks:
           </p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse text-xs md:text-sm">
+          <div className="w-full overflow-x-auto rounded-xl">
+            <table className="w-full text-left border-collapse text-xs md:text-sm min-w-[500px]">
               <thead>
                 <tr className="border-b border-brand-coral/20 text-brand-deep font-bold">
                   <th className="py-2">Birth Gestation</th>

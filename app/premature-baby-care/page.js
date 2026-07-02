@@ -9,7 +9,7 @@ import ScrollReveal from '@/components/animation/ScrollReveal';
 
 export default function PrematureBabyCarePage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 space-y-16 md:space-y-24" id="baby-care-page">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 space-y-16 md:space-y-24 overflow-x-hidden" id="baby-care-page">
       
       {/* 1. HERO SECTION */}
       <section className="text-center max-w-3xl mx-auto space-y-6">
@@ -78,8 +78,8 @@ export default function PrematureBabyCarePage() {
           </ScrollReveal>
 
           <ScrollReveal direction="up" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border-collapse text-xs md:text-sm">
+            <div className="w-full overflow-x-auto rounded-xl">
+              <table className="w-full text-left border-collapse text-xs md:text-sm min-w-[500px]">
                 <thead>
                   <tr className="border-b border-brand-coral/20 text-brand-deep font-bold bg-brand-rose/20">
                     <th className="p-4 rounded-l-2xl">Room Temperature (C)</th>
@@ -158,15 +158,15 @@ export default function PrematureBabyCarePage() {
 
       {/* 4. NEW CONTENT: AIR QUALITY & DIAPER OBSERVATION CHECKLISTS */}
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        <ScrollReveal direction="right" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6">
+        <ScrollReveal direction="right" className="bg-brand-rose/40 border border-brand-coral/15 rounded-3xl p-6 md:p-8 space-y-6 min-w-0">
           <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
             Nursery Air Quality & Safety Standards
           </h3>
           <p className="text-brand-brown text-xs md:text-sm leading-relaxed">
             Preterm lungs are extremely sensitive to microscopic particles. Maintain these environmental parameters:
           </p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse text-xs md:text-sm">
+          <div className="w-full overflow-x-auto rounded-xl">
+            <table className="w-full text-left border-collapse text-xs md:text-sm min-w-[450px]">
               <thead>
                 <tr className="border-b border-brand-coral/20 text-brand-deep font-bold">
                   <th className="py-2">Parameter</th>
@@ -200,7 +200,7 @@ export default function PrematureBabyCarePage() {
           </div>
         </ScrollReveal>
 
-        <ScrollReveal direction="left" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6">
+        <ScrollReveal direction="left" className="bg-brand-white border border-brand-coral/15 rounded-3xl p-6 md:p-8 shadow-soft space-y-6 min-w-0">
           <h3 className="font-display font-bold text-brand-deep text-lg md:text-xl">
             Diaper Log & Hydration Checklist
           </h3>
